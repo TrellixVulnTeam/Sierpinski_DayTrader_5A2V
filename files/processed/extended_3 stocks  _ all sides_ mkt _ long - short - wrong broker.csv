@@ -1,0 +1,4 @@
+ticker,exchange,side,quantity,account,Order Type,Limit,Broker,Strategy
+COP,US,B,10,21386427-3,MKT,,xxx,SOR
+VZ,US,SS,5,21386427-4,MKT,,JPGA,SOR
+EMN,US,BS,10,21386427-3,MKT,,xxx,SOR

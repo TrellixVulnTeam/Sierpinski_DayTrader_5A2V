@@ -1,0 +1,5 @@
+ticker,exchange,side,quantity,account,Order Type,Limit,Broker,Strategy
+BHP,US,B,7,21386427-3,XXX,,BMTB,SOR
+ITUB,US,S,8,21386427-4,XXX,,BMTB,SOR
+HPQ,US,SS,5,21386427-4,MKT,,BMTB,SOR
+NFLX,US,BS,10,21386427-3,MKT,,BMTB,SOR

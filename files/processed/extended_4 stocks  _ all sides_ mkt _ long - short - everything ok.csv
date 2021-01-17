@@ -1,0 +1,5 @@
+ticker,exchange,side,quantity,account,Order Type,Limit,Broker,Strategy
+CVX,US,B,17,21386427-3,LMT,53.21,BMTB,SOR
+BA,US,S,19,21386427-4,LMT,39.12,BMTB,SOR
+WMT,US,SS,5,21386427-4,MKT,,BMTB,SOR
+JNJ,US,BS,10,21386427-3,MKT,,BMTB,SOR

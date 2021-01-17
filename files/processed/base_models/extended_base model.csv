@@ -1,0 +1,5 @@
+ticker,side,quantity,account,Order Type,Limit,Broker,Strategy
+F,B,10,21386427-3,MKT,,JPGA,SOR
+GM,SS,10,21386427-4,MKT,,JPGA,SOR
+BGFV,SS,5,21386427-4,MKT,,JPGA,SOR
+ONCT,B,10,21386427-3,MKT,,JPGA,SOR
