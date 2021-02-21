@@ -7,8 +7,13 @@ class Configuration:
 
         self.IncomingModule = config['DEFAULT']['INCOMING_MODULE']
         self.IncomingConfigFile = config['DEFAULT']['INCOMING_CONFIG_FILE']
+
         self.OutgoingModule = config['DEFAULT']['OUTGOING_MODULE']
         self.OutgoingConfigFile = config['DEFAULT']['OUTGOING_CONFIG_FILE']
+
+        self.VendorModule = config['DEFAULT']['VENDOR_MODULE']
+        self.VendorFile = config['DEFAULT']['VENDOR_FILE']
+
         self.Currency = config['DEFAULT']['CURRENCY']
         self.PauseBeforeExecutionInSeconds = int( config['DEFAULT']['PAUSE_BEFORE_EXECUTION_IN_SECONDS'])
         self.DefaultExchange= config['DEFAULT']['DEFAULT_EXCHANGE']

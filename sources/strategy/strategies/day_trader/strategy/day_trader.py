@@ -69,6 +69,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
 
         self.InvokingModule = None
         self.OutgoingModule = None
+        self.VendorModule=None
 
         self.FailureException = None
         self.ServiceFailure = False
@@ -1324,6 +1325,9 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
 
         if self.LoadConfig():
 
+            if self.Configuration.TestMode:
+                self.PositionsSynchronization=False
+
             threading.Thread(target=self.TradesPersistanceThread, args=()).start()
 
             threading.Thread(target=self.DayTradingPersistanceThread, args=()).start()
@@ -1335,6 +1339,8 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             self.MarketDataModule =  self.InitializeModule(self.Configuration.IncomingModule,self.Configuration.IncomingConfigFile)
 
             self.OrderRoutingModule = self.InitializeModule(self.Configuration.OutgoingModule,self.Configuration.OutgoingConfigFile)
+
+            self.VendorModule = self.InitializeModule(self.Configuration.VendorModule,self.Configuration.VendorFile)
 
             time.sleep(self.Configuration.PauseBeforeExecutionInSeconds)
 

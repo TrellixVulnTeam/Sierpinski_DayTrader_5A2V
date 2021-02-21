@@ -1,5 +1,6 @@
 from enum import Enum
 class TradingSignalField(Enum):
     Symbol = 1
-    Signal=2
-    Recommendation=3
+    Date=2
+    Side=3
+    Price = 4
