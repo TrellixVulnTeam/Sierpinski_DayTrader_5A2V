@@ -6,7 +6,7 @@ from sources.framework.business_entities.orders.order import *
 from sources.framework.common.enums.QuantityType import *
 from sources.framework.common.enums.PriceType import *
 from sources.framework.common.enums.OrdType import *
-from sources.strategy.strategies.day_trader.business_entities.day_trading_position import *
+from sources.strategy.strategies.day_trader.business_entities.potential_position import *
 
 _CS_SEC_TYPE = "Equity"
 _trade_id=0
@@ -82,20 +82,20 @@ class ExecutionSummaryManager():
 
     #region Public Methods
 
-    def GetExecutionSummaries(self,dayTradingPos, fromDate):
+    def GetExecutionSummaries(self,potPos, fromDate):
         executionSummaries=[]
         with self.connection.cursor() as cursor:
-            params = (dayTradingPos.Id,fromDate)
+            params = (potPos.Id,fromDate)
             cursor.execute("{CALL GetExecutionSummaries (?,?)}", params)
 
             for row in cursor:
 
-                summary = self.BuildExecutionSummary(row,dayTradingPos)
+                summary = self.BuildExecutionSummary(row,potPos)
                 executionSummaries.append(summary)
 
         return executionSummaries
 
-    def PersistExecutionSummary(self,summary, dayTradingPositionId):
+    def PersistExecutionSummary(self,summary, potPosId):
 
         with self.connection.cursor() as cursor:
             params = (summary.GetTradeId(),summary.Position.Security.Symbol,int(summary.Position.Qty),
@@ -105,7 +105,7 @@ class ExecutionSummaryManager():
                       summary.LastTradeTime if summary.LastTradeTime is not None else None,
                       summary.AvgPx,
                       summary.Position.GetLastOrder().OrderId if summary.Position.GetLastOrder() is not None else None,
-                      int(dayTradingPositionId) if dayTradingPositionId is not None else None,
+                      potPosId,
                       summary.Position.Account,summary.Timestamp,
                       summary.Text,summary.Position.StopLoss,summary.Position.TakeProfit,summary.Position.CloseEndOfDay)
             cursor.execute("{CALL PersistExecutionSummary (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}", params)

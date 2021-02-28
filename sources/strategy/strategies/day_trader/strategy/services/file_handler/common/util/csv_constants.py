@@ -26,25 +26,27 @@ class CSVConstants:
     def _EXTENDED_QTY():
         return 3
 
+    '''
     @staticmethod
     def _EXTENDED_ACCOUNT():
         return 4
+    '''
 
     @staticmethod
     def _EXTENDED_ORDER_TYPE():
-        return 5
+        return 4
 
     @staticmethod
     def _EXTENDED_LIMIT_PRICE():
-        return 6
+        return 5
 
     @staticmethod
     def _EXTENDED_BROKER():
-        return 7
+        return 6
 
     @staticmethod
     def _EXTENDED_STRATEGY():
-        return 8
+        return 7
 
     #endregion
 

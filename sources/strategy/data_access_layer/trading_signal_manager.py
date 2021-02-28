@@ -1,6 +1,6 @@
 import pyodbc
 import datetime
-from sources.strategy.strategies.day_trader.business_entities.day_trading_position import *
+from sources.strategy.strategies.day_trader.business_entities.potential_position import *
 from sources.strategy.strategies.day_trader.business_entities.model_parameter import *
 
 _id = 0

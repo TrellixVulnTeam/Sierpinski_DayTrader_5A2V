@@ -71,14 +71,13 @@ class InputFileConverter:
                 if row[0] == "CANCEL_ALL":
                     #TODO dev Cancel All Wrapper
                     break
-                elif len(row) == 9:
+                elif len(row) >= 8:
                     logger.DoLog(
-                        "Creating position for symbol {} qty ={} side={} account={} order type={} limit={} broker={} "
+                        "Creating potential position for symbol {} qty ={} side={} order type={} limit={} broker={} "
                         "strategy={} "
                             .format(row[CSVConstants._EXTENDED_SYMBOL()],
                                     row[CSVConstants._EXTENDED_QTY()],
                                     row[CSVConstants._EXTENDED_SIDE()],
-                                    row[CSVConstants._EXTENDED_ACCOUNT()],
                                     row[CSVConstants._EXTENDED_ORDER_TYPE()],
                                     row[CSVConstants._EXTENDED_LIMIT_PRICE()],
                                     row[CSVConstants._EXTENDED_BROKER()],
@@ -88,7 +87,6 @@ class InputFileConverter:
                                       pExchange=row[CSVConstants._EXTENDED_QTY()],
                                       pSide=row[CSVConstants._EXTENDED_SIDE()],
                                       pQty=float(row[CSVConstants._EXTENDED_QTY()]),
-                                      pAccount=row[CSVConstants._EXTENDED_ACCOUNT()],
                                       pOrderType=row[CSVConstants._EXTENDED_ORDER_TYPE()],
                                       pLimitPrice=float(row[CSVConstants._EXTENDED_LIMIT_PRICE()]) if row[CSVConstants._EXTENDED_LIMIT_PRICE()]!="" else None,
                                       pBroker=row[CSVConstants._EXTENDED_BROKER()],

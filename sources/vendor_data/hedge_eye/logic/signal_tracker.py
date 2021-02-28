@@ -156,11 +156,10 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
 
         if self.LoadConfig():
 
-            self.TrackForSignals()
+            threading.Thread(target=self.TrackForSignals, args=()).start()
             self.DoLog("SignalTracker Successfully initialized", MessageType.INFO)
 
             return CMState.BuildSuccess(self)
-
         else:
             msg = "Error initializing SignalTracker"
             self.DoLog(msg, MessageType.ERROR)

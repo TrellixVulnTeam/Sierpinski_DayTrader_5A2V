@@ -20,6 +20,7 @@ class Configuration:
         self.MarketDataSubscriptionResetTime = config['DEFAULT']['MARKET_DATA_SUBSCRIPTION_RESET_TIME']
         self.DefaultAccount = config['DEFAULT']['DEFAULT_ACCOUNT']
         self.TestMode =config['DEFAULT']['TEST_MODE']=="True"
+        self.PastDaysForTradingSignals = int(config['DEFAULT']['PAST_DAYS_FOR_TRADING_SIGNALS'])
 
         self.DBConectionString = config['DB']['CONNECTION_STRING']
 
