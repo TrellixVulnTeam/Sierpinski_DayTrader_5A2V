@@ -656,14 +656,23 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
         sessionOptions.setServerHost(self.Configuration.Server)
         sessionOptions.setServerPort(self.Configuration.Port)
 
-        self.DoLog("Connecting to %s:%d" % (self.Configuration.Server, self.Configuration.Port), MessageType.INFO)
 
-        self.Session = Session(sessionOptions, self.ProcessEvent)
+        #If ImplementMock=False, OR (ImplementMock=True and MockSendToBloomberg=True)
+        #We connect
+        if not self.Configuration.ImplementMock or self.Configuration.MockSendsToBloomberg:
+            self.DoLog("Connecting to %s:%d" % (self.Configuration.Server, self.Configuration.Port), MessageType.INFO)
 
-        if not self.Session.startAsync():
-            self.DoLog("Failed to start session.", MessageType.INFO)
-            self.Connected = False
-            return
+            self.Session = Session(sessionOptions, self.ProcessEvent)
+
+            if not self.Session.startAsync():
+                self.DoLog("Failed to start session.", MessageType.INFO)
+                self.Connected = False
+                return
+        else:
+
+
+            self.DoLog("Working offline - Mock implemented",MessageType.INFO)
+            self.Connected=True
 
         # global bEnd
         # while bEnd == False:

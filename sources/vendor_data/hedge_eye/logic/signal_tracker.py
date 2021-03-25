@@ -1,6 +1,8 @@
 import threading
 from datetime import date
 
+from selenium.webdriver.common.by import By
+
 from sources.framework.util.singleton.common.util.singleton import *
 from sources.framework.common.abstract.base_communication_module import BaseCommunicationModule
 from sources.framework.common.interfaces.icommunication_module import ICommunicationModule
@@ -9,14 +11,19 @@ from sources.framework.common.wrappers.market_data_wrapper import *
 from sources.vendor_data.hedge_eye.common.configuration.configuration import *
 from sources.vendor_data.hedge_eye.common.dto.trading_signal_dto import *
 from sources.vendor_data.hedge_eye.common.wrappers.trading_signal_wrapper import *
+from sources.vendor_data.hedge_eye.data_access_layer.two_captcha_manager import *
 from sources.framework.common.dto.cm_state import *
 from selenium import webdriver
 import time
 import winsound
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 _BUY_SIGNAL_PREFIX="BUY SIGNAL"
 _SELL_SIGNAL_PREFIX="SELL SIGNAL"
-_DATETIME_FORMAT="%m/%d/%y %H:%M %p EST"
+
 
 class SignalTracker( BaseCommunicationModule, ICommunicationModule):
 
@@ -26,6 +33,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         # region Attributes
         self.Name = "Hedge Eye Signal Tracker"
         self.Configuration=None
+        self.TwoCaptchaManager = None
         # endregion
 
     # endregion
@@ -65,6 +73,53 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
 
         return foundLoginError
 
+    def GetCaptchaToken(self):
+
+        while True:
+
+            requestId = None
+
+            try:
+                requestId=self.TwoCaptchaManager.GetCapthaRequestId()
+            except Exception as e:
+                self.DoLog("Could not recover 2Captcha Request Id:{}".format(str(e)),MessageType.ERROR)
+
+            i=1
+            token=None
+            found=False
+            while True:
+                # now we have to wait for the captcha to be solved
+                time.sleep(1)
+                try:
+                    token=self.TwoCaptchaManager.GetHCaptchaToken(requestId)
+                    found=True
+                    return token
+                except Exception as e:
+                    self.DoLog("Could not recover the captcha token in the attempt #{}:{}".format(i,str(e)),MessageType.ERROR)
+                finally:
+                    i+=1
+                    if(i>10 and not found):
+                        self.DoLog("More than 10 unsuccessful attempts. Restarting Login process.",MessageType.ERROR)
+                        break
+
+    def DoLoadToken(self,driver,cntrl,token):
+        driver.execute_script(
+            'var element=document.getElementsByName("'+cntrl+'")[0]; element.style.display="";')
+        driver.execute_script('document.getElementsByName("'+cntrl+'")[0].innerHTML = "'+token+'" ')
+
+    def DoLogin(self,driver):
+        token = self.GetCaptchaToken()
+        driver.get(self.Configuration.LoginURL)
+
+        self.DoLoadToken(driver, "g-recaptcha-response", token)
+        self.DoLoadToken(driver, "h-captcha-response", token)
+
+        xpaths = {'email': "//input[@name='user[email]']", 'pw': "//input[@name='user[password]']"}
+        driver.find_element_by_xpath(xpaths['email']).send_keys(self.Configuration.HedgeEyeLogin)
+        driver.find_element_by_xpath(xpaths['pw']).send_keys(self.Configuration.HedgeEyePwd)
+        touch_button = driver.find_element_by_xpath("//input[@name='commit']")
+        touch_button.click()
+
     def TrackForSignals(self):
 
         signalsFound=[]
@@ -72,12 +127,15 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         self.DoLog("Starting Trading Signal Scrapping".format(datetime.datetime.now()), MessageType.INFO)
         self.DoLog("Opening Chrome window".format(datetime.datetime.now()), MessageType.INFO)
         driver = webdriver.Chrome(executable_path=self.Configuration.ChromeDriverPath)
-        url = self.Configuration.HedgeEyeURL
+        signalsURL = self.Configuration.HedgeEyeURL
+
+        self.DoLogin(driver)
 
         while   True:
 
             try:
-                driver.get(url)
+
+                driver.get(signalsURL)
                 while True:
                     foundLoginError = self.FindLoginError(driver)
                     if foundLoginError:
@@ -94,7 +152,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                 for i,title in enumerate(titleStr):
 
                     title=str(titleStr[i].text)
-                    date = datetime.datetime.strptime(dateStr[i].text, _DATETIME_FORMAT)
+                    date = datetime.datetime.strptime(dateStr[i].text, self.Configuration.DateTimeFormat)
 
                     if title in signalsFound:
                         break
@@ -155,6 +213,11 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         self.DoLog("SignalTracker  Initializing", MessageType.INFO)
 
         if self.LoadConfig():
+
+            self.TwoCaptchaManager=TwoCaptchaManager(self.Configuration.LoginURL,
+                                                     self.Configuration.CaptchaSvcURL,
+                                                     self.Configuration.TwoCaptchaCustomerKey,
+                                                     self.Configuration.SiteKey)
 
             threading.Thread(target=self.TrackForSignals, args=()).start()
             self.DoLog("SignalTracker Successfully initialized", MessageType.INFO)
