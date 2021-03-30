@@ -1,0 +1,1054 @@
+2021-03-25 16:20:20 [logger INFO] DayTrader  Initializing
+2021-03-25 16:20:21 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:20:21 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:20:21 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:20:21 [logger INFO] Connecting to localhost:8194
+2021-03-25 16:22:49 [logger INFO] DayTrader  Initializing
+2021-03-25 16:22:49 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:22:49 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:22:49 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:22:49 [logger INFO] Connecting to localhost:8194
+2021-03-25 16:24:39 [logger INFO] DayTrader  Initializing
+2021-03-25 16:24:39 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:24:39 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:24:39 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:24:39 [logger ERROR] Error Loading Bloomberg Order Router module:DoLog() missing 1 required positional argument: 'message_type'
+2021-03-25 16:24:39 [logger ERROR] Error Loading Singleton Modules Handler module:DoLog() missing 1 required positional argument: 'message_type'
+2021-03-25 16:25:14 [logger INFO] DayTrader  Initializing
+2021-03-25 16:25:14 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:25:14 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:25:14 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:25:33 [logger INFO] DayTrader  Initializing
+2021-03-25 16:25:33 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:25:33 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:25:33 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:25:33 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:25:33 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:25:33 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:25:33 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:25:33 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:25:33 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:25:34 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:25:34 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 16:25:34 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 16:25:34 [logger INFO] Opening Chrome window
+2021-03-25 16:25:35 [logger INFO] DayTrader Successfully initialized
+2021-03-25 16:27:07 [logger INFO] DayTrader  Initializing
+2021-03-25 16:27:07 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:27:07 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:27:08 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:27:08 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:27:08 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:27:08 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:27:08 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:27:08 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:27:08 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:27:08 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:27:08 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 16:27:08 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 16:27:08 [logger INFO] Opening Chrome window
+2021-03-25 16:27:09 [logger INFO] DayTrader Successfully initialized
+2021-03-25 16:28:15 [logger INFO] Searching for trading signals
+2021-03-25 16:28:15 [logger ERROR] Critical error Downloading Signals: time data '03/25/21 02:59 PM EDT' does not match format '%m/%d/%y %H:%M %p EST'
+2021-03-25 16:30:17 [logger INFO] Searching for trading signals
+2021-03-25 16:30:18 [logger ERROR] Critical error Downloading Signals: time data '03/25/21 03:13 PM EDT' does not match format '%m/%d/%y %H:%M %p EST'
+2021-03-25 16:32:21 [logger INFO] Searching for trading signals
+2021-03-25 16:32:21 [logger ERROR] Critical error Downloading Signals: time data '03/25/21 03:13 PM EDT' does not match format '%m/%d/%y %H:%M %p EST'
+2021-03-25 16:34:24 [logger INFO] Searching for trading signals
+2021-03-25 16:34:24 [logger ERROR] Critical error Downloading Signals: time data '03/25/21 03:13 PM EDT' does not match format '%m/%d/%y %H:%M %p EST'
+2021-03-25 16:35:58 [logger INFO] DayTrader  Initializing
+2021-03-25 16:35:58 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:35:58 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:35:58 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:36:14 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:36:14 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:36:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:36:14 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:36:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:36:14 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:36:14 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:36:14 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 16:36:14 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 16:36:14 [logger INFO] Opening Chrome window
+2021-03-25 16:36:15 [logger INFO] DayTrader Successfully initialized
+2021-03-25 16:37:21 [logger INFO] Searching for trading signals
+2021-03-25 16:37:21 [logger ERROR] Critical error Downloading Signals: time data '03/25/21 03:13 PM EDT' does not match format '%m/%d/%y %H:%M %p EST'
+2021-03-25 16:39:29 [logger INFO] Searching for trading signals
+2021-03-25 16:41:00 [logger INFO] DayTrader  Initializing
+2021-03-25 16:41:00 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:41:00 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:41:00 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:41:00 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:41:00 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:41:00 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:41:00 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:41:00 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:41:00 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:41:01 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:41:01 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 16:41:01 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 16:41:01 [logger INFO] Opening Chrome window
+2021-03-25 16:41:02 [logger INFO] DayTrader Successfully initialized
+2021-03-25 16:42:13 [logger INFO] Searching for trading signals
+2021-03-25 16:42:23 [logger INFO] Creating Buy Signal: BUY SIGNAL TOBAF $2.89 at 2021-03-25 03:13:00
+2021-03-25 16:42:23 [logger INFO] Received trading signal for Symbol TOBAF date 2021-03-25 03:13:00 side Side.Buy and price 2.89
+2021-03-25 16:42:23 [logger INFO] TOBAF_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:23 [logger INFO] TOBAF_BUY-Found 0 potential positions
+2021-03-25 16:42:23 [logger INFO] Creating Sell Signal: SELL SIGNAL MP $36.72 at 2021-03-25 02:59:00
+2021-03-25 16:42:24 [logger INFO] Received trading signal for Symbol MP date 2021-03-25 02:59:00 side Side.Sell and price 36.72
+2021-03-25 16:42:24 [logger INFO] MP_SELL-Looking for potential positions (from input file)
+2021-03-25 16:42:24 [logger INFO] MP_SELL-Found 0 potential positions
+2021-03-25 16:42:24 [logger INFO] Creating Sell Signal: SELL SIGNAL XLB $77.52 at 2021-03-25 02:51:00
+2021-03-25 16:42:24 [logger INFO] Received trading signal for Symbol XLB date 2021-03-25 02:51:00 side Side.Sell and price 77.52
+2021-03-25 16:42:24 [logger INFO] XLB_SELL-Looking for potential positions (from input file)
+2021-03-25 16:42:24 [logger INFO] XLB_SELL-Found 0 potential positions
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b'Audio Replay | Healthcare: DarioHealth Corp. (DRIO)'
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b'Audio Replay | China: Zhihu Inc. (ZH)'
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b'Call Reminder | Happening in 15 minutes | DRIO | Best Idea Long'
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b"Happening Now | ZH (IPO) | Answer to No One & Everyone (China's Quora/Reddit) Toda\xe2\x80\xa6"
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 HedgeyeTV Highlights (3/25/21)'
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b'Audio Replay | Communications Speaker Call (3/25)'
+2021-03-25 16:42:24 [logger INFO] Creating Buy Signal: BUY SIGNAL AYRWF $29.50 at 2021-03-25 10:31:00
+2021-03-25 16:42:24 [logger INFO] Received trading signal for Symbol AYRWF date 2021-03-25 10:31:00 side Side.Buy and price 29.5
+2021-03-25 16:42:24 [logger INFO] AYRWF_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:24 [logger INFO] AYRWF_BUY-Found 0 potential positions
+2021-03-25 16:42:24 [logger INFO] Creating Sell Signal: SELL SIGNAL ELY $25.94 at 2021-03-25 10:20:00
+2021-03-25 16:42:24 [logger INFO] Received trading signal for Symbol ELY date 2021-03-25 10:20:00 side Side.Sell and price 25.94
+2021-03-25 16:42:24 [logger INFO] ELY_SELL-Looking for potential positions (from input file)
+2021-03-25 16:42:24 [logger INFO] ELY_SELL-Found 0 potential positions
+2021-03-25 16:42:24 [logger INFO] Creating Sell Signal: SELL SIGNAL V $208.60 at 2021-03-25 10:18:00
+2021-03-25 16:42:24 [logger INFO] Received trading signal for Symbol V date 2021-03-25 10:18:00 side Side.Sell and price 208.6
+2021-03-25 16:42:24 [logger INFO] V_SELL-Looking for potential positions (from input file)
+2021-03-25 16:42:24 [logger INFO] V_SELL-Found 0 potential positions
+2021-03-25 16:42:24 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT XLP $66.83 at 2021-03-25 10:15:00
+2021-03-25 16:42:24 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT XLP $66.83: could not convert string to float: 'COVERING'
+2021-03-25 16:42:24 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 Complete Audio (3/25/21)'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 Complete Audio (3/25/21)'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'HAPPENING NOW | ROKU, VZIO, #OTT, #CTV | FIRESIDE CHAT W/KIRBY GRINES'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'Weekly U.I. Claims (03/25) | State Claims Fall Below 700K For First Time in the Last Year'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'Staples Insights | CA drought (STKL), ACI adds vertically grown produce (APPH), Eat Just (BYND)'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'CTK | Battered and Humbled'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'March 25th - Show Materials & Top 3 Things'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'On Being Wrong'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'The Macro Show with Hedgeye CEO Keith McCullough & REIT Analyst Rob Simone Replay | March 25, 2021'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'TODAY @ 10 AM ET | ROKU, VZIO, #OTT, #CTV | FIRESIDE CHAT W/KIRBY GRINES'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'Cannabis Insights | Cannabis Correction & "Permissibility" | NY | MN going Rec?'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b"ZH (IPO) | Answer to No One & Everyone (China's Quora/Reddit) Today at 12:30pm"
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'Americans Getting Colder On China. NewsWire'
+2021-03-25 16:42:25 [logger INFO] Discarding regular article: b'Americans Getting Colder On China. NewsWire'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'Bullish Bias: APPN, WIX, DOCN | Bearish Bias: COUR | 1H21 Idea Hunt Replay & Slides'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'RH | Dominant, With No Peers'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'Health Care SPAC Call (GIX) Replay & Notes | UpHealth: One-Upping the Competition'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'CRUISERS | STABLE PRICING BUT CDC MONKEY WRENCH (CORRECTION)'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'Audio Replay | Technology Idea Hunt 1H21 (3/24)'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'CRUISERS | STABLE PRICING BUT CDC MONKEY WRENCH'
+2021-03-25 16:42:26 [logger INFO] Creating Buy Signal: BUY SIGNAL STKL $13.52 at 2021-03-24 03:29:00
+2021-03-25 16:42:26 [logger INFO] Received trading signal for Symbol STKL date 2021-03-24 03:29:00 side Side.Buy and price 13.52
+2021-03-25 16:42:26 [logger INFO] STKL_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:26 [logger INFO] STKL_BUY-Found 0 potential positions
+2021-03-25 16:42:26 [logger INFO] Creating Buy Signal: BUY SIGNAL MP $33.15 at 2021-03-24 03:16:00
+2021-03-25 16:42:26 [logger INFO] Received trading signal for Symbol MP date 2021-03-24 03:16:00 side Side.Buy and price 33.15
+2021-03-25 16:42:26 [logger INFO] MP_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:26 [logger INFO] MP_BUY-Found 0 potential positions
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'DBI and CAL | The Nike Effect'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'EVENT | Healthcare & Health Policy Speaker Call w/ John Quinn'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'HAPPENING SOON | 1H21 IDEA HUNT | COVID GOT YOUR TECH? | DOCN, COUR, WIX, APPN'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'HOTELS | SPRING BREAKERS DRIVE ACCELERATION (WEEK 11/52)'
+2021-03-25 16:42:26 [logger INFO] Discarding regular article: b'EVENT | Restaurants & Consumer Staples Q&A (4/1)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'EVENT | Restaurants & Consumer Staples Q&A (4/1)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'EVENT | Retail Idea Hunt (4/1)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 HedgeyeTV Highlights (3/24/21)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'Audio Replay | Retail: Caleres, Inc. (CAL) & Designer Brands Inc. (DBI)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'EVENT | Retail Black Book (3/30)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'Podcast: Immigration, The Lira, and Pineapple Diplomacy (3/24)'
+2021-03-25 16:42:27 [logger INFO] Discarding regular article: b'Podcast: Immigration, The Lira, and Pineapple Diplomacy (3/24)'
+2021-03-25 16:42:27 [logger INFO] Creating Buy Signal: BUY SIGNAL CTRN $83.39 at 2021-03-24 10:45:00
+2021-03-25 16:42:27 [logger INFO] Received trading signal for Symbol CTRN date 2021-03-24 10:45:00 side Side.Buy and price 83.39
+2021-03-25 16:42:27 [logger INFO] CTRN_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:27 [logger INFO] CTRN_BUY-Found 0 potential positions
+2021-03-25 16:42:27 [logger INFO] Creating Buy Signal: BUY SIGNAL MSOS $43.54 at 2021-03-24 10:36:00
+2021-03-25 16:42:27 [logger INFO] Received trading signal for Symbol MSOS date 2021-03-24 10:36:00 side Side.Buy and price 43.54
+2021-03-25 16:42:27 [logger INFO] MSOS_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:27 [logger INFO] MSOS_BUY-Found 0 potential positions
+2021-03-25 16:42:27 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT MDLZ $58.08 at 2021-03-24 10:29:00
+2021-03-25 16:42:27 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT MDLZ $58.08: could not convert string to float: 'COVERING'
+2021-03-25 16:42:27 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT BBY $116.26 at 2021-03-24 10:27:00
+2021-03-25 16:42:27 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT BBY $116.26: could not convert string to float: 'COVERING'
+2021-03-25 16:42:27 [logger INFO] Creating Buy Signal: BUY SIGNAL ELY $26.97 at 2021-03-24 10:24:00
+2021-03-25 16:42:27 [logger INFO] Received trading signal for Symbol ELY date 2021-03-24 10:24:00 side Side.Buy and price 26.97
+2021-03-25 16:42:27 [logger INFO] Creating Buy Signal: BUY SIGNAL DUFRY $6.36 at 2021-03-24 10:20:00
+2021-03-25 16:42:27 [logger INFO] ELY_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:28 [logger INFO] ELY_BUY-Found 0 potential positions
+2021-03-25 16:42:28 [logger INFO] Received trading signal for Symbol DUFRY date 2021-03-24 10:20:00 side Side.Buy and price 6.36
+2021-03-25 16:42:28 [logger INFO] DUFRY_BUY-Looking for potential positions (from input file)
+2021-03-25 16:42:28 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT DPZ $368.19 at 2021-03-24 10:15:00
+2021-03-25 16:42:28 [logger INFO] DUFRY_BUY-Found 0 potential positions
+2021-03-25 16:42:28 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT DPZ $368.19: could not convert string to float: 'COVERING'
+2021-03-25 16:42:28 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING TLT $137.14 at 2021-03-24 10:01:00
+2021-03-25 16:42:28 [logger ERROR] Critical error Parsing Signal SELL SIGNAL - SHORTING TLT $137.14: could not convert string to float: 'SHORTING'
+2021-03-25 16:42:28 [logger INFO] Discarding regular article: b'Demography Unplugged: Episode 84'
+2021-03-25 16:42:28 [logger INFO] All signals processed
+2021-03-25 16:44:57 [logger INFO] DayTrader  Initializing
+2021-03-25 16:44:57 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:44:57 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:44:58 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:44:58 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:44:58 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:44:58 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:44:58 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:44:58 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:44:58 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:44:58 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:46:14 [logger INFO] DayTrader  Initializing
+2021-03-25 16:46:14 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:46:14 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:46:14 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:46:14 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:46:14 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:46:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:46:14 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:46:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:46:14 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:46:14 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:46:53 [logger INFO] DayTrader  Initializing
+2021-03-25 16:46:53 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:46:53 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:46:53 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:46:53 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:46:53 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:46:53 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:46:53 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:46:53 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:46:53 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:46:54 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:47:29 [logger INFO] DayTrader  Initializing
+2021-03-25 16:47:29 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 16:47:29 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 16:47:29 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 16:47:29 [logger INFO] Working offline - Mock implemented
+2021-03-25 16:47:29 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 16:47:29 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:47:29 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 16:47:29 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 16:47:29 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 16:47:30 [logger INFO] SignalTracker  Initializing
+2021-03-25 16:47:30 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 16:47:30 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 16:47:30 [logger INFO] Opening Chrome window
+2021-03-25 16:47:31 [logger INFO] DayTrader Successfully initialized
+2021-03-25 16:48:38 [logger INFO] Searching for trading signals
+2021-03-25 17:13:58 [logger INFO] DayTrader  Initializing
+2021-03-25 17:13:58 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 17:13:58 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 17:13:59 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 17:13:59 [logger INFO] Working offline - Mock implemented
+2021-03-25 17:13:59 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 17:13:59 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 17:13:59 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 17:13:59 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 17:13:59 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 17:13:59 [logger INFO] SignalTracker  Initializing
+2021-03-25 17:13:59 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 17:13:59 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 17:13:59 [logger INFO] Opening Chrome window
+2021-03-25 17:14:00 [logger INFO] DayTrader Successfully initialized
+2021-03-25 17:17:09 [logger INFO] Searching for trading signals
+2021-03-25 17:17:09 [logger INFO] All signals processed
+2021-03-25 17:21:13 [logger INFO] Searching for trading signals
+2021-03-25 17:21:14 [logger INFO] All signals processed
+2021-03-25 17:25:18 [logger INFO] Searching for trading signals
+2021-03-25 17:25:18 [logger INFO] All signals processed
+2021-03-25 17:27:30 [logger ERROR] Critical error Downloading Signals: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-25 17:29:43 [logger ERROR] Critical error Downloading Signals: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-25 17:31:56 [logger ERROR] Critical error Downloading Signals: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-25 18:01:32 [logger INFO] DayTrader  Initializing
+2021-03-25 18:01:32 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:01:32 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:01:32 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:01:32 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:01:32 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:01:32 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:01:32 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:01:32 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:01:32 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:01:33 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:02:16 [logger INFO] DayTrader  Initializing
+2021-03-25 18:02:16 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:02:16 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:02:17 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:02:17 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:02:17 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:02:17 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:02:17 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:02:17 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:02:17 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:02:17 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:03:03 [logger INFO] DayTrader  Initializing
+2021-03-25 18:03:03 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:03:03 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:03:04 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:03:04 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:03:04 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:03:04 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:03:04 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:03:04 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:03:04 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:03:04 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:03:39 [logger INFO] DayTrader  Initializing
+2021-03-25 18:03:39 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:03:39 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:03:39 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:03:39 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:03:39 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:03:39 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:03:39 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:03:39 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:03:39 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:03:40 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:07:37 [logger INFO] DayTrader  Initializing
+2021-03-25 18:07:37 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:07:37 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:07:37 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:07:37 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:07:37 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:07:37 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:07:38 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:07:38 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:07:38 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:07:38 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:08:14 [logger INFO] DayTrader  Initializing
+2021-03-25 18:08:14 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:08:14 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:08:14 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:08:14 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:08:14 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:08:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:08:14 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:08:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:08:14 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:08:15 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:13:38 [logger INFO] DayTrader  Initializing
+2021-03-25 18:13:38 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:13:38 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:13:38 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:13:38 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:13:38 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:13:38 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:13:38 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:13:38 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:13:38 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:13:39 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:14:12 [logger INFO] DayTrader  Initializing
+2021-03-25 18:14:12 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:14:12 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:14:12 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:14:12 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:14:12 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:14:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:14:12 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:14:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:14:12 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:14:13 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:17:55 [logger INFO] DayTrader  Initializing
+2021-03-25 18:17:55 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:17:55 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:17:55 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:17:55 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:17:55 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:17:55 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:17:55 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:17:55 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:17:55 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:17:56 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:46:26 [logger INFO] DayTrader  Initializing
+2021-03-25 18:46:26 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:46:26 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:46:27 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:46:27 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:46:27 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:46:27 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:46:27 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:46:27 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:46:27 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:46:28 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:46:28 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 18:46:28 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 18:46:28 [logger INFO] Opening Chrome window
+2021-03-25 18:46:29 [logger INFO] DayTrader Successfully initialized
+2021-03-25 18:47:15 [logger INFO] DayTrader  Initializing
+2021-03-25 18:47:15 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:47:15 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:47:15 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:47:15 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:47:15 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:47:15 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:47:16 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:47:16 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:47:16 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:47:16 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:47:16 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 18:47:16 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 18:47:16 [logger INFO] Opening Chrome window
+2021-03-25 18:47:17 [logger INFO] DayTrader Successfully initialized
+2021-03-25 18:51:30 [logger INFO] DayTrader  Initializing
+2021-03-25 18:51:30 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:51:30 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:51:31 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:51:31 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:51:31 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:51:31 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:51:31 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:51:31 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:51:31 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:51:32 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:51:32 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 18:51:32 [logger INFO] Opening Chrome window
+2021-03-25 18:51:32 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 18:51:33 [logger INFO] DayTrader Successfully initialized
+2021-03-25 18:56:50 [logger INFO] DayTrader  Initializing
+2021-03-25 18:56:50 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:56:50 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:56:50 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:56:50 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:56:50 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:56:50 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:56:50 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:56:50 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:56:50 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:56:51 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:56:51 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 18:56:51 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 18:56:51 [logger INFO] Opening Chrome window
+2021-03-25 18:56:52 [logger INFO] DayTrader Successfully initialized
+2021-03-25 18:58:31 [logger INFO] DayTrader  Initializing
+2021-03-25 18:58:31 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 18:58:31 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 18:58:31 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 18:58:31 [logger INFO] Working offline - Mock implemented
+2021-03-25 18:58:31 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 18:58:31 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:58:31 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 18:58:31 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 18:58:31 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 18:58:32 [logger INFO] SignalTracker  Initializing
+2021-03-25 18:58:32 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 18:58:32 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 18:58:32 [logger INFO] Opening Chrome window
+2021-03-25 18:58:33 [logger INFO] DayTrader Successfully initialized
+2021-03-25 18:58:41 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 18:58:43 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 18:58:46 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:01:41 [logger INFO] DayTrader  Initializing
+2021-03-25 19:01:41 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:01:41 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:01:42 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:01:42 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:01:42 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:01:42 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:01:42 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:01:42 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:01:42 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:01:43 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:01:43 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:01:43 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:01:43 [logger INFO] Opening Chrome window
+2021-03-25 19:01:44 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:01:51 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:01:53 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:01:56 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:01:58 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:04:35 [logger INFO] DayTrader  Initializing
+2021-03-25 19:04:35 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:04:35 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:04:36 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:04:36 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:04:36 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:04:36 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:04:36 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:04:36 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:04:36 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:04:37 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:04:37 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:04:37 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:04:37 [logger INFO] Opening Chrome window
+2021-03-25 19:04:38 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:04:45 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:04:48 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:04:50 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:04:53 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:08:27 [logger INFO] DayTrader  Initializing
+2021-03-25 19:08:27 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:08:27 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:08:27 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:08:27 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:08:27 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:08:27 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:08:27 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:08:27 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:08:27 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:08:28 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:08:28 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:08:28 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:08:28 [logger INFO] Opening Chrome window
+2021-03-25 19:08:29 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:08:45 [logger INFO] DayTrader  Initializing
+2021-03-25 19:08:46 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:08:46 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:08:46 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:08:46 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:08:46 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:08:46 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:08:46 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:08:46 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:08:46 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:08:47 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:08:47 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:08:47 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:08:47 [logger INFO] Opening Chrome window
+2021-03-25 19:08:48 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:08:53 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:08:55 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:08:58 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:09:40 [logger INFO] DayTrader  Initializing
+2021-03-25 19:09:40 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:09:40 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:09:40 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:09:40 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:09:40 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:09:40 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:09:40 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:09:40 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:09:40 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:09:41 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:09:41 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:09:41 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:09:41 [logger INFO] Opening Chrome window
+2021-03-25 19:09:42 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:09:47 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:09:49 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:09:52 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:09:54 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:11:04 [logger INFO] DayTrader  Initializing
+2021-03-25 19:11:04 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:11:04 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:11:05 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:11:05 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:11:05 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:11:05 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:11:05 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:11:05 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:11:05 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:11:06 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:11:06 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:11:06 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:11:06 [logger INFO] Opening Chrome window
+2021-03-25 19:11:07 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:11:12 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:11:14 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:11:17 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:11:19 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:11:22 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:11:25 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:18:14 [logger INFO] DayTrader  Initializing
+2021-03-25 19:18:14 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:18:14 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:18:14 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:18:14 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:18:14 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:18:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:18:14 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:18:14 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:18:14 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:18:15 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:18:15 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:18:15 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:18:15 [logger INFO] Opening Chrome window
+2021-03-25 19:18:16 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:18:20 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:18:23 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:18:25 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:26:24 [logger INFO] DayTrader  Initializing
+2021-03-25 19:26:24 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:26:24 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:26:25 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:26:25 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:26:25 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:26:25 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:26:25 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:26:25 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:26:25 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:26:25 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:26:25 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:26:25 [logger INFO] Opening Chrome window
+2021-03-25 19:26:25 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:26:26 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:26:30 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:26:33 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:26:35 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:26:38 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:27:12 [logger INFO] DayTrader  Initializing
+2021-03-25 19:27:12 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:27:12 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:27:12 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:27:12 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:27:12 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:27:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:27:12 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:27:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:27:12 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:27:12 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:27:12 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:27:12 [logger INFO] Opening Chrome window
+2021-03-25 19:27:12 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:27:13 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:27:18 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:27:20 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:27:22 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:27:25 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:31:49 [logger INFO] DayTrader  Initializing
+2021-03-25 19:31:49 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:31:49 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:31:49 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:31:49 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:31:49 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:31:49 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:31:49 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:31:49 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:31:49 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:31:49 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:31:49 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:31:49 [logger INFO] Opening Chrome window
+2021-03-25 19:31:49 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:31:51 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:31:55 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:31:57 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:32:00 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:32:02 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:33:42 [logger INFO] DayTrader  Initializing
+2021-03-25 19:33:42 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:33:42 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:33:43 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:33:43 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:33:43 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:33:43 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:33:43 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:33:43 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:33:43 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:33:43 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:33:43 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:33:43 [logger INFO] Opening Chrome window
+2021-03-25 19:33:43 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:33:44 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:33:48 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:33:51 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:33:53 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:33:55 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:37:20 [logger INFO] DayTrader  Initializing
+2021-03-25 19:37:20 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:37:20 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:37:20 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:37:20 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:37:20 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:37:20 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:37:20 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:37:20 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:37:20 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:37:21 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:37:21 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:37:21 [logger INFO] Opening Chrome window
+2021-03-25 19:37:21 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:37:22 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:37:26 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:37:28 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:37:30 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:37:33 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:37:35 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:40:46 [logger INFO] DayTrader  Initializing
+2021-03-25 19:40:46 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:40:46 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:40:46 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:40:46 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:40:46 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:40:46 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:40:46 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:40:46 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:40:46 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:40:47 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:40:47 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:40:47 [logger INFO] Opening Chrome window
+2021-03-25 19:40:47 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:40:48 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:40:52 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:40:54 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:40:56 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:40:59 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:42:35 [logger INFO] DayTrader  Initializing
+2021-03-25 19:42:35 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:42:35 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:42:35 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:42:35 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:42:35 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:42:35 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:42:35 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:42:35 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:42:35 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:42:36 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:42:36 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:42:36 [logger INFO] Opening Chrome window
+2021-03-25 19:42:36 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:42:37 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:42:41 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:42:43 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:42:46 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:42:48 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:44:20 [logger INFO] DayTrader  Initializing
+2021-03-25 19:44:20 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:44:20 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:44:20 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:44:20 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:44:20 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:44:20 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:44:20 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:44:20 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:44:20 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:44:21 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:44:21 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:44:21 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:44:21 [logger INFO] Opening Chrome window
+2021-03-25 19:44:22 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:44:26 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:44:28 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:44:42 [logger INFO] DayTrader  Initializing
+2021-03-25 19:44:42 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:44:42 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:44:42 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:44:42 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:44:42 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:44:42 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:44:42 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:44:42 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:44:42 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:44:43 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:44:43 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:44:43 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:44:43 [logger INFO] Opening Chrome window
+2021-03-25 19:44:44 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:44:48 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:44:50 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:44:52 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:44:55 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:48:12 [logger INFO] DayTrader  Initializing
+2021-03-25 19:48:12 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:48:12 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:48:12 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:48:12 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:48:12 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:48:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:48:12 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:48:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:48:12 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:48:13 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:48:13 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:48:13 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:48:13 [logger INFO] Opening Chrome window
+2021-03-25 19:48:14 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:48:20 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:48:23 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:48:25 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:48:27 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:51:27 [logger INFO] DayTrader  Initializing
+2021-03-25 19:51:27 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:51:27 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:51:28 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:51:28 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:51:28 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:51:28 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:51:28 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:51:28 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:51:28 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:51:28 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:51:28 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:51:28 [logger INFO] Opening Chrome window
+2021-03-25 19:51:28 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:51:29 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:51:40 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:51:42 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:51:45 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:51:47 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:51:49 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:54:23 [logger INFO] DayTrader  Initializing
+2021-03-25 19:54:23 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 19:54:23 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 19:54:23 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 19:54:23 [logger INFO] Working offline - Mock implemented
+2021-03-25 19:54:23 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 19:54:23 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:54:23 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 19:54:23 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 19:54:23 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 19:54:24 [logger INFO] SignalTracker  Initializing
+2021-03-25 19:54:24 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 19:54:24 [logger INFO] Opening Chrome window
+2021-03-25 19:54:24 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 19:54:25 [logger INFO] DayTrader Successfully initialized
+2021-03-25 19:54:29 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:54:31 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:54:34 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:54:36 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 19:55:06 [logger INFO] Searching for trading signals
+2021-03-25 19:55:06 [logger INFO] Creating Sell Signal: SELL SIGNAL BCO $79.41 at 2021-03-25 03:45:00
+2021-03-25 19:55:06 [logger INFO] Received trading signal for Symbol BCO date 2021-03-25 03:45:00 side Side.Sell and price 79.41
+2021-03-25 19:55:06 [logger INFO] BCO_SELL-Looking for potential positions (from input file)
+2021-03-25 19:55:06 [logger INFO] BCO_SELL-Found 0 potential positions
+2021-03-25 19:55:06 [logger INFO] Discarding regular article: b'Call Invite March 31 @12:30PM | Post-COVID Deferred Care: A Convers\xe2\x80\xa6'
+2021-03-25 19:55:06 [logger INFO] Creating Buy Signal: BUY SIGNAL TOBAF $2.89 at 2021-03-25 03:13:00
+2021-03-25 19:55:06 [logger INFO] Received trading signal for Symbol TOBAF date 2021-03-25 03:13:00 side Side.Buy and price 2.89
+2021-03-25 19:55:06 [logger INFO] TOBAF_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:06 [logger INFO] TOBAF_BUY-Found 0 potential positions
+2021-03-25 19:55:06 [logger INFO] Creating Sell Signal: SELL SIGNAL MP $36.72 at 2021-03-25 02:59:00
+2021-03-25 19:55:06 [logger INFO] Received trading signal for Symbol MP date 2021-03-25 02:59:00 side Side.Sell and price 36.72
+2021-03-25 19:55:06 [logger INFO] MP_SELL-Looking for potential positions (from input file)
+2021-03-25 19:55:06 [logger INFO] MP_SELL-Found 0 potential positions
+2021-03-25 19:55:07 [logger INFO] Creating Sell Signal: SELL SIGNAL XLB $77.52 at 2021-03-25 02:51:00
+2021-03-25 19:55:07 [logger INFO] Received trading signal for Symbol XLB date 2021-03-25 02:51:00 side Side.Sell and price 77.52
+2021-03-25 19:55:07 [logger INFO] XLB_SELL-Looking for potential positions (from input file)
+2021-03-25 19:55:07 [logger INFO] XLB_SELL-Found 0 potential positions
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'Audio Replay | Healthcare: DarioHealth Corp. (DRIO)'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'Audio Replay | China: Zhihu Inc. (ZH)'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'Call Reminder | Happening in 15 minutes | DRIO | Best Idea Long'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b"Happening Now | ZH (IPO) | Answer to No One & Everyone (China's Quora/\xe2\x80\xa6"
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 HedgeyeTV Highlights (3/25/21)'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'Audio Replay | Communications Speaker Call (3/25)'
+2021-03-25 19:55:07 [logger INFO] Creating Buy Signal: BUY SIGNAL AYRWF $29.50 at 2021-03-25 10:31:00
+2021-03-25 19:55:07 [logger INFO] Received trading signal for Symbol AYRWF date 2021-03-25 10:31:00 side Side.Buy and price 29.5
+2021-03-25 19:55:07 [logger INFO] AYRWF_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:07 [logger INFO] Creating Sell Signal: SELL SIGNAL ELY $25.94 at 2021-03-25 10:20:00
+2021-03-25 19:55:07 [logger INFO] AYRWF_BUY-Found 0 potential positions
+2021-03-25 19:55:07 [logger INFO] Received trading signal for Symbol ELY date 2021-03-25 10:20:00 side Side.Sell and price 25.94
+2021-03-25 19:55:07 [logger INFO] ELY_SELL-Looking for potential positions (from input file)
+2021-03-25 19:55:07 [logger INFO] Creating Sell Signal: SELL SIGNAL V $208.60 at 2021-03-25 10:18:00
+2021-03-25 19:55:07 [logger INFO] ELY_SELL-Found 0 potential positions
+2021-03-25 19:55:07 [logger INFO] Received trading signal for Symbol V date 2021-03-25 10:18:00 side Side.Sell and price 208.6
+2021-03-25 19:55:07 [logger INFO] V_SELL-Looking for potential positions (from input file)
+2021-03-25 19:55:07 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT XLP $66.83 at 2021-03-25 10:15:00
+2021-03-25 19:55:07 [logger INFO] V_SELL-Found 0 potential positions
+2021-03-25 19:55:07 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT XLP $66.83: could not convert string to float: 'COVERING'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 Complete Audio (3/25/21)'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 Complete Audio (3/25/21)'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'HAPPENING NOW | ROKU, VZIO, #OTT, #CTV | FIRESIDE CHAT W/KIRBY GRINES'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'Weekly U.I. Claims (03/25) | State Claims Fall Below 700K For First Time in the Last Year'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'Staples Insights | CA drought (STKL), ACI adds vertically grown produce (APPH), Eat Just (BYND)'
+2021-03-25 19:55:07 [logger INFO] Discarding regular article: b'CTK | Battered and Humbled'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'March 25th - Show Materials & Top 3 Things'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'On Being Wrong'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'The Macro Show with Hedgeye CEO Keith McCullough & REIT Analyst Rob Simone Replay | March 25, 2021'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'TODAY @ 10 AM ET | ROKU, VZIO, #OTT, #CTV | FIRESIDE CHAT W/KIRBY GRINES'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'Cannabis Insights | Cannabis Correction & "Permissibility" | NY | MN going Rec?'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b"ZH (IPO) | Answer to No One & Everyone (China's Quora/Reddit) Today at 12:30pm"
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'Americans Getting Colder On China. NewsWire'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'Americans Getting Colder On China. NewsWire'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'Bullish Bias: APPN, WIX, DOCN | Bearish Bias: COUR | 1H21 Idea Hunt Replay & Slides'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'RH | Dominant, With No Peers'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'Health Care SPAC Call (GIX) Replay & Notes | UpHealth: One-Upping the Competition'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'CRUISERS | STABLE PRICING BUT CDC MONKEY WRENCH (CORRECTION)'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'Audio Replay | Technology Idea Hunt 1H21 (3/24)'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'CRUISERS | STABLE PRICING BUT CDC MONKEY WRENCH'
+2021-03-25 19:55:08 [logger INFO] Creating Buy Signal: BUY SIGNAL STKL $13.52 at 2021-03-24 03:29:00
+2021-03-25 19:55:08 [logger INFO] Received trading signal for Symbol STKL date 2021-03-24 03:29:00 side Side.Buy and price 13.52
+2021-03-25 19:55:08 [logger INFO] STKL_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:08 [logger INFO] STKL_BUY-Found 0 potential positions
+2021-03-25 19:55:08 [logger INFO] Creating Buy Signal: BUY SIGNAL MP $33.15 at 2021-03-24 03:16:00
+2021-03-25 19:55:08 [logger INFO] Received trading signal for Symbol MP date 2021-03-24 03:16:00 side Side.Buy and price 33.15
+2021-03-25 19:55:08 [logger INFO] MP_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:08 [logger INFO] MP_BUY-Found 0 potential positions
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'DBI and CAL | The Nike Effect'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'EVENT | Healthcare & Health Policy Speaker Call w/ John Quinn'
+2021-03-25 19:55:08 [logger INFO] Discarding regular article: b'HAPPENING SOON | 1H21 IDEA HUNT | COVID GOT YOUR TECH? | DOCN, COUR, WIX, APPN'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'HOTELS | SPRING BREAKERS DRIVE ACCELERATION (WEEK 11/52)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'EVENT | Restaurants & Consumer Staples Q&A (4/1)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'EVENT | Restaurants & Consumer Staples Q&A (4/1)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'EVENT | Retail Idea Hunt (4/1)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 HedgeyeTV Highlights (3/24/21)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'Audio Replay | Retail: Caleres, Inc. (CAL) & Designer Brands Inc. (DBI)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'EVENT | Retail Black Book (3/30)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'Podcast: Immigration, The Lira, and Pineapple Diplomacy (3/24)'
+2021-03-25 19:55:09 [logger INFO] Discarding regular article: b'Podcast: Immigration, The Lira, and Pineapple Diplomacy (3/24)'
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL CTRN $83.39 at 2021-03-24 10:45:00
+2021-03-25 19:55:09 [logger INFO] Received trading signal for Symbol CTRN date 2021-03-24 10:45:00 side Side.Buy and price 83.39
+2021-03-25 19:55:09 [logger INFO] CTRN_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:09 [logger INFO] CTRN_BUY-Found 0 potential positions
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL MSOS $43.54 at 2021-03-24 10:36:00
+2021-03-25 19:55:09 [logger INFO] Received trading signal for Symbol MSOS date 2021-03-24 10:36:00 side Side.Buy and price 43.54
+2021-03-25 19:55:09 [logger INFO] MSOS_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:09 [logger INFO] MSOS_BUY-Found 0 potential positions
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT MDLZ $58.08 at 2021-03-24 10:29:00
+2021-03-25 19:55:09 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT MDLZ $58.08: could not convert string to float: 'COVERING'
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT BBY $116.26 at 2021-03-24 10:27:00
+2021-03-25 19:55:09 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT BBY $116.26: could not convert string to float: 'COVERING'
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL ELY $26.97 at 2021-03-24 10:24:00
+2021-03-25 19:55:09 [logger INFO] Received trading signal for Symbol ELY date 2021-03-24 10:24:00 side Side.Buy and price 26.97
+2021-03-25 19:55:09 [logger INFO] ELY_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:09 [logger INFO] ELY_BUY-Found 0 potential positions
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL DUFRY $6.36 at 2021-03-24 10:20:00
+2021-03-25 19:55:09 [logger INFO] Received trading signal for Symbol DUFRY date 2021-03-24 10:20:00 side Side.Buy and price 6.36
+2021-03-25 19:55:09 [logger INFO] DUFRY_BUY-Looking for potential positions (from input file)
+2021-03-25 19:55:09 [logger INFO] DUFRY_BUY-Found 0 potential positions
+2021-03-25 19:55:09 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT DPZ $368.19 at 2021-03-24 10:15:00
+2021-03-25 19:55:09 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT DPZ $368.19: could not convert string to float: 'COVERING'
+2021-03-25 19:55:09 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING TLT $137.14 at 2021-03-24 10:01:00
+2021-03-25 19:55:09 [logger ERROR] Critical error Parsing Signal SELL SIGNAL - SHORTING TLT $137.14: could not convert string to float: 'SHORTING'
+2021-03-25 19:55:09 [logger INFO] All signals processed
+2021-03-25 20:00:07 [logger INFO] DayTrader  Initializing
+2021-03-25 20:00:07 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 20:00:07 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 20:00:07 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 20:00:07 [logger INFO] Working offline - Mock implemented
+2021-03-25 20:00:07 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 20:00:07 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 20:00:07 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 20:00:07 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 20:00:07 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 20:00:08 [logger INFO] SignalTracker  Initializing
+2021-03-25 20:00:24 [logger INFO] DayTrader  Initializing
+2021-03-25 20:00:24 [logger INFO] FileHandlerModule  Initializing
+2021-03-25 20:00:24 [logger INFO] FileHandlerModule Successfully initialized
+2021-03-25 20:00:24 [logger INFO] Initializing Bloomberg Order Router
+2021-03-25 20:00:24 [logger INFO] Working offline - Mock implemented
+2021-03-25 20:00:24 [logger INFO] Bloomberg Order Router Initialized
+2021-03-25 20:00:24 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 20:00:24 [logger INFO] Initializing Generic Market Order Router
+2021-03-25 20:00:24 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-03-25 20:00:24 [logger INFO] Generic Market Order Router Initialized
+2021-03-25 20:00:25 [logger INFO] SignalTracker  Initializing
+2021-03-25 20:00:25 [logger INFO] Starting Trading Signal Scrapping
+2021-03-25 20:00:25 [logger INFO] SignalTracker Successfully initialized
+2021-03-25 20:00:25 [logger INFO] Opening Chrome window
+2021-03-25 20:00:26 [logger INFO] DayTrader Successfully initialized
+2021-03-25 20:00:30 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 20:00:32 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 20:00:34 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 20:00:37 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-03-25 20:00:45 [logger INFO] Searching for trading signals
+2021-03-25 20:00:45 [logger INFO] Creating Sell Signal: SELL SIGNAL BCO $79.41 at 2021-03-25 03:45:00
+2021-03-25 20:00:45 [logger INFO] Received trading signal for Symbol BCO date 2021-03-25 03:45:00 side Side.Sell and price 79.41
+2021-03-25 20:00:45 [logger INFO] BCO_SELL-Looking for potential positions (from input file)
+2021-03-25 20:00:45 [logger INFO] BCO_SELL-Found 0 potential positions
+2021-03-25 20:00:45 [logger INFO] Discarding regular article: b'Call Invite March 31 @12:30PM | Post-COVID Deferred Care: A Convers\xe2\x80\xa6'
+2021-03-25 20:00:45 [logger INFO] Creating Buy Signal: BUY SIGNAL TOBAF $2.89 at 2021-03-25 03:13:00
+2021-03-25 20:00:45 [logger INFO] Received trading signal for Symbol TOBAF date 2021-03-25 03:13:00 side Side.Buy and price 2.89
+2021-03-25 20:00:45 [logger INFO] TOBAF_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:45 [logger INFO] TOBAF_BUY-Found 0 potential positions
+2021-03-25 20:00:45 [logger INFO] Creating Sell Signal: SELL SIGNAL MP $36.72 at 2021-03-25 02:59:00
+2021-03-25 20:00:45 [logger INFO] Received trading signal for Symbol MP date 2021-03-25 02:59:00 side Side.Sell and price 36.72
+2021-03-25 20:00:45 [logger INFO] MP_SELL-Looking for potential positions (from input file)
+2021-03-25 20:00:45 [logger INFO] MP_SELL-Found 0 potential positions
+2021-03-25 20:00:45 [logger INFO] Creating Sell Signal: SELL SIGNAL XLB $77.52 at 2021-03-25 02:51:00
+2021-03-25 20:00:45 [logger INFO] Received trading signal for Symbol XLB date 2021-03-25 02:51:00 side Side.Sell and price 77.52
+2021-03-25 20:00:45 [logger INFO] XLB_SELL-Looking for potential positions (from input file)
+2021-03-25 20:00:46 [logger INFO] XLB_SELL-Found 0 potential positions
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Audio Replay | Healthcare: DarioHealth Corp. (DRIO)'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Audio Replay | China: Zhihu Inc. (ZH)'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Call Reminder | Happening in 15 minutes | DRIO | Best Idea Long'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b"Happening Now | ZH (IPO) | Answer to No One & Everyone (China's Quora/\xe2\x80\xa6"
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 HedgeyeTV Highlights (3/25/21)'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Audio Replay | Communications Speaker Call (3/25)'
+2021-03-25 20:00:46 [logger INFO] Creating Buy Signal: BUY SIGNAL AYRWF $29.50 at 2021-03-25 10:31:00
+2021-03-25 20:00:46 [logger INFO] Received trading signal for Symbol AYRWF date 2021-03-25 10:31:00 side Side.Buy and price 29.5
+2021-03-25 20:00:46 [logger INFO] AYRWF_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:46 [logger INFO] AYRWF_BUY-Found 0 potential positions
+2021-03-25 20:00:46 [logger INFO] Creating Sell Signal: SELL SIGNAL ELY $25.94 at 2021-03-25 10:20:00
+2021-03-25 20:00:46 [logger INFO] Received trading signal for Symbol ELY date 2021-03-25 10:20:00 side Side.Sell and price 25.94
+2021-03-25 20:00:46 [logger INFO] ELY_SELL-Looking for potential positions (from input file)
+2021-03-25 20:00:46 [logger INFO] ELY_SELL-Found 0 potential positions
+2021-03-25 20:00:46 [logger INFO] Creating Sell Signal: SELL SIGNAL V $208.60 at 2021-03-25 10:18:00
+2021-03-25 20:00:46 [logger INFO] Received trading signal for Symbol V date 2021-03-25 10:18:00 side Side.Sell and price 208.6
+2021-03-25 20:00:46 [logger INFO] V_SELL-Looking for potential positions (from input file)
+2021-03-25 20:00:46 [logger INFO] V_SELL-Found 0 potential positions
+2021-03-25 20:00:46 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT XLP $66.83 at 2021-03-25 10:15:00
+2021-03-25 20:00:46 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT XLP $66.83: could not convert string to float: 'COVERING'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 Complete Audio (3/25/21)'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 Complete Audio (3/25/21)'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'HAPPENING NOW | ROKU, VZIO, #OTT, #CTV | FIRESIDE CHAT W/KIRBY GRINES'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Weekly U.I. Claims (03/25) | State Claims Fall Below 700K For First Time in the Last Year'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Staples Insights | CA drought (STKL), ACI adds vertically grown produce (APPH), Eat Just (BYND)'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'CTK | Battered and Humbled'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'March 25th - Show Materials & Top 3 Things'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'On Being Wrong'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'The Macro Show with Hedgeye CEO Keith McCullough & REIT Analyst Rob Simone Replay | March 25, 2021'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'TODAY @ 10 AM ET | ROKU, VZIO, #OTT, #CTV | FIRESIDE CHAT W/KIRBY GRINES'
+2021-03-25 20:00:46 [logger INFO] Discarding regular article: b'Cannabis Insights | Cannabis Correction & "Permissibility" | NY | MN going Rec?'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b"ZH (IPO) | Answer to No One & Everyone (China's Quora/Reddit) Today at 12:30pm"
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Americans Getting Colder On China. NewsWire'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Americans Getting Colder On China. NewsWire'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Bullish Bias: APPN, WIX, DOCN | Bearish Bias: COUR | 1H21 Idea Hunt Replay & Slides'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'RH | Dominant, With No Peers'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Health Care SPAC Call (GIX) Replay & Notes | UpHealth: One-Upping the Competition'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'CRUISERS | STABLE PRICING BUT CDC MONKEY WRENCH (CORRECTION)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Audio Replay | Technology Idea Hunt 1H21 (3/24)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'CRUISERS | STABLE PRICING BUT CDC MONKEY WRENCH'
+2021-03-25 20:00:47 [logger INFO] Creating Buy Signal: BUY SIGNAL STKL $13.52 at 2021-03-24 03:29:00
+2021-03-25 20:00:47 [logger INFO] Received trading signal for Symbol STKL date 2021-03-24 03:29:00 side Side.Buy and price 13.52
+2021-03-25 20:00:47 [logger INFO] STKL_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:47 [logger INFO] STKL_BUY-Found 0 potential positions
+2021-03-25 20:00:47 [logger INFO] Creating Buy Signal: BUY SIGNAL MP $33.15 at 2021-03-24 03:16:00
+2021-03-25 20:00:47 [logger INFO] Received trading signal for Symbol MP date 2021-03-24 03:16:00 side Side.Buy and price 33.15
+2021-03-25 20:00:47 [logger INFO] MP_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:47 [logger INFO] MP_BUY-Found 0 potential positions
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'DBI and CAL | The Nike Effect'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'EVENT | Healthcare & Health Policy Speaker Call w/ John Quinn'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'HAPPENING SOON | 1H21 IDEA HUNT | COVID GOT YOUR TECH? | DOCN, COUR, WIX, APPN'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'HOTELS | SPRING BREAKERS DRIVE ACCELERATION (WEEK 11/52)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'EVENT | Restaurants & Consumer Staples Q&A (4/1)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'EVENT | Restaurants & Consumer Staples Q&A (4/1)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'EVENT | Retail Idea Hunt (4/1)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'The Call @ Hedgeye Plus \xe2\x86\x92 HedgeyeTV Highlights (3/24/21)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Audio Replay | Retail: Caleres, Inc. (CAL) & Designer Brands Inc. (DBI)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'EVENT | Retail Black Book (3/30)'
+2021-03-25 20:00:47 [logger INFO] Discarding regular article: b'Podcast: Immigration, The Lira, and Pineapple Diplomacy (3/24)'
+2021-03-25 20:00:48 [logger INFO] Discarding regular article: b'Podcast: Immigration, The Lira, and Pineapple Diplomacy (3/24)'
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL CTRN $83.39 at 2021-03-24 10:45:00
+2021-03-25 20:00:48 [logger INFO] Received trading signal for Symbol CTRN date 2021-03-24 10:45:00 side Side.Buy and price 83.39
+2021-03-25 20:00:48 [logger INFO] CTRN_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:48 [logger INFO] CTRN_BUY-Found 0 potential positions
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL MSOS $43.54 at 2021-03-24 10:36:00
+2021-03-25 20:00:48 [logger INFO] Received trading signal for Symbol MSOS date 2021-03-24 10:36:00 side Side.Buy and price 43.54
+2021-03-25 20:00:48 [logger INFO] MSOS_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT MDLZ $58.08 at 2021-03-24 10:29:00
+2021-03-25 20:00:48 [logger INFO] MSOS_BUY-Found 0 potential positions
+2021-03-25 20:00:48 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT MDLZ $58.08: could not convert string to float: 'COVERING'
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT BBY $116.26 at 2021-03-24 10:27:00
+2021-03-25 20:00:48 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT BBY $116.26: could not convert string to float: 'COVERING'
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL ELY $26.97 at 2021-03-24 10:24:00
+2021-03-25 20:00:48 [logger INFO] Received trading signal for Symbol ELY date 2021-03-24 10:24:00 side Side.Buy and price 26.97
+2021-03-25 20:00:48 [logger INFO] ELY_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:48 [logger INFO] ELY_BUY-Found 0 potential positions
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL DUFRY $6.36 at 2021-03-24 10:20:00
+2021-03-25 20:00:48 [logger INFO] Received trading signal for Symbol DUFRY date 2021-03-24 10:20:00 side Side.Buy and price 6.36
+2021-03-25 20:00:48 [logger INFO] DUFRY_BUY-Looking for potential positions (from input file)
+2021-03-25 20:00:48 [logger INFO] DUFRY_BUY-Found 0 potential positions
+2021-03-25 20:00:48 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT DPZ $368.19 at 2021-03-24 10:15:00
+2021-03-25 20:00:48 [logger ERROR] Critical error Parsing Signal BUY SIGNAL - COVERING SHORT DPZ $368.19: could not convert string to float: 'COVERING'
+2021-03-25 20:00:48 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING TLT $137.14 at 2021-03-24 10:01:00
+2021-03-25 20:00:48 [logger ERROR] Critical error Parsing Signal SELL SIGNAL - SHORTING TLT $137.14: could not convert string to float: 'SHORTING'
+2021-03-25 20:00:48 [logger INFO] All signals processed
+2021-03-25 20:02:50 [logger INFO] Searching for trading signals
+2021-03-25 20:02:50 [logger INFO] All signals processed
+2021-03-25 20:04:52 [logger INFO] Searching for trading signals
+2021-03-25 20:04:52 [logger INFO] All signals processed
+2021-03-25 20:06:55 [logger INFO] Searching for trading signals
+2021-03-25 20:06:55 [logger INFO] All signals processed
+2021-03-25 20:08:57 [logger INFO] Searching for trading signals
+2021-03-25 20:08:57 [logger INFO] All signals processed
+2021-03-25 20:10:59 [logger INFO] Searching for trading signals
+2021-03-25 20:10:59 [logger INFO] All signals processed
+2021-03-25 20:13:01 [logger INFO] Searching for trading signals
+2021-03-25 20:13:01 [logger INFO] All signals processed
+2021-03-25 20:15:13 [logger ERROR] Critical error Downloading Signals: Message: chrome not reachable
+  (Session info: chrome=89.0.4389.90)
+

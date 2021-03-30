@@ -23,5 +23,7 @@ class Configuration:
 
         #2CAPTCHA_CUSTOMER_KEY
 
+        self.DBConnectionString = config['DB']['CONNECTION_STRING']
+
 
 

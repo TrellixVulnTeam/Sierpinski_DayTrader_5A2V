@@ -26,3 +26,5 @@ class Configuration:
 
         self.FileHandlerModule = config['DEFAULT']['FILE_HANDLER_MODULE']
         self.FileHandlerConfigFile = config['DEFAULT']['FILE_HANDLER_CONFIG_FILE']
+
+        self.DBConnectionString =config['DB']['CONNECTION_STRING']

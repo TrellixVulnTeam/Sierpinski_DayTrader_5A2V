@@ -1,8 +1,6 @@
 import threading
 from datetime import date
-
 from selenium.webdriver.common.by import By
-
 from sources.framework.util.singleton.common.util.singleton import *
 from sources.framework.common.abstract.base_communication_module import BaseCommunicationModule
 from sources.framework.common.interfaces.icommunication_module import ICommunicationModule
@@ -12,6 +10,7 @@ from sources.vendor_data.hedge_eye.common.configuration.configuration import *
 from sources.vendor_data.hedge_eye.common.dto.trading_signal_dto import *
 from sources.vendor_data.hedge_eye.common.wrappers.trading_signal_wrapper import *
 from sources.vendor_data.hedge_eye.data_access_layer.two_captcha_manager import *
+from sources.vendor_data.hedge_eye.data_access_layer.hedge_eye_user_manager import *
 from sources.framework.common.dto.cm_state import *
 from selenium import webdriver
 import time
@@ -34,6 +33,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         self.Name = "Hedge Eye Signal Tracker"
         self.Configuration=None
         self.TwoCaptchaManager = None
+        self.HedgeEyeUserManager = None
         # endregion
 
     # endregion
@@ -56,6 +56,11 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         except Exception as e:
             self.DoLog("Critical error Parsing Signal {}: {}".format(signal,str(e)), MessageType.ERROR)
             #winsound.Beep(1000, self.Configuration.SleepLengthSeconds * 1000)
+
+
+    def LoadManagers(self):
+
+        self.HedgeEyeUserManager = HedgeEyeUserManager(self.Configuration.DBConnectionString)
 
 
     def LoadConfig(self):
@@ -107,18 +112,81 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
             'var element=document.getElementsByName("'+cntrl+'")[0]; element.style.display="";')
         driver.execute_script('document.getElementsByName("'+cntrl+'")[0].innerHTML = "'+token+'" ')
 
+    def GetNextUserToUse(self):
+        users=self.HedgeEyeUserManager.GetHedgeEyeUsers()
+
+        notUsedUser =next(iter(list(filter(lambda x: x.LastLoginTime is None, users))), None)
+
+
+        if notUsedUser is None:
+
+            usedArr = sorted(list(filter(lambda x: x.LastLoginTime is not None, users)), key=lambda x: x.LastLoginTime,
+                             reverse=False)
+
+            oldestUsedUser = usedArr[0] if len(usedArr)>0 else None
+
+            if oldestUsedUser is None:
+                raise Exception("Could not find user to login to Hedge Eye")
+
+            return oldestUsedUser
+        else:
+            return notUsedUser
+
+    def ValidateLoggedIn(self,driver,current_url):
+        try:
+            WebDriverWait(driver, 4).until(EC.url_changes(current_url))#4 seconds timeout
+        except Exception as e:
+            #First we look for error messages
+            error_span = driver.find_element_by_xpath("//span[@class='error']")
+
+            if error_span is not None:
+                raise  Exception(error_span.text)
+            else:
+                raise Exception("Failed to log in")
+
+        # We try to go to the signals URL
+        current_url = driver.current_url
+        driver.get(self.Configuration.HedgeEyeURL)
+        WebDriverWait(driver, 4).until(EC.url_changes(current_url))#4 seconds timeout
+
+        welcome_control = driver.find_element_by_xpath("//a[@id='se-inner-nav-open-signals']")
+
+        if (welcome_control is not None and welcome_control.text == "OPEN SIGNALS"):
+            return True
+        else:
+            raise Exception("No 'OPEN SIGNALS' link found after logging in")
+
     def DoLogin(self,driver):
-        token = self.GetCaptchaToken()
-        driver.get(self.Configuration.LoginURL)
 
-        self.DoLoadToken(driver, "g-recaptcha-response", token)
-        self.DoLoadToken(driver, "h-captcha-response", token)
+        success= False
 
-        xpaths = {'email': "//input[@name='user[email]']", 'pw': "//input[@name='user[password]']"}
-        driver.find_element_by_xpath(xpaths['email']).send_keys(self.Configuration.HedgeEyeLogin)
-        driver.find_element_by_xpath(xpaths['pw']).send_keys(self.Configuration.HedgeEyePwd)
-        touch_button = driver.find_element_by_xpath("//input[@name='commit']")
-        touch_button.click()
+        while not success:
+
+            user = self.GetNextUserToUse()
+
+            try:
+
+                token = self.GetCaptchaToken()
+                driver.get(self.Configuration.LoginURL)
+
+                self.DoLoadToken(driver, "g-recaptcha-response", token)
+                self.DoLoadToken(driver, "h-captcha-response", token)
+
+                xpaths = {'email': "//input[@name='user[email]']", 'pw': "//input[@name='user[password]']"}
+                current_url = driver.current_url
+
+                driver.find_element_by_xpath(xpaths['email']).send_keys(user.Login)
+                driver.find_element_by_xpath(xpaths['pw']).send_keys(user.Pwd)
+                touch_button = driver.find_element_by_xpath("//input[@name='commit']")
+                touch_button.click()
+
+                success=self.ValidateLoggedIn(driver, current_url)
+
+            except Exception as e:
+                self.DoLog("Failed to log in for user {}:{} ".format(user.Login,str(e)),MessageType.ERROR)
+            finally:
+                user.LastLoginTime=datetime.datetime.now()
+                self.HedgeEyeUserManager.PersistHedgeEyeUser(user)
 
     def TrackForSignals(self):
 
@@ -213,6 +281,8 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         self.DoLog("SignalTracker  Initializing", MessageType.INFO)
 
         if self.LoadConfig():
+
+            self.LoadManagers()
 
             self.TwoCaptchaManager=TwoCaptchaManager(self.Configuration.LoginURL,
                                                      self.Configuration.CaptchaSvcURL,

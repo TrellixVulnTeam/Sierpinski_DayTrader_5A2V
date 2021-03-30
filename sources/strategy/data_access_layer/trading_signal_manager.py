@@ -20,9 +20,7 @@ class TradingSignalManager():
 
     #endregion
 
-
     #region Public Methods
-
 
     def GetTradingSignal(self,datetime,symbol):
         tradingSignalId=None
