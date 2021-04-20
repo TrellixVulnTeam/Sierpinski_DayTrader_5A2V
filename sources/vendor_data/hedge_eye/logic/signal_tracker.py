@@ -15,13 +15,16 @@ from sources.framework.common.dto.cm_state import *
 from selenium import webdriver
 import time
 import winsound
+import threading
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 _BUY_SIGNAL_PREFIX="BUY SIGNAL"
+_BUY_SIGNAL_COVERING_PREFIX="BUY SIGNAL - COVERING SHORT"
 _SELL_SIGNAL_PREFIX="SELL SIGNAL"
+_SELL_SIGNAL_SHORTING_PREFIX="SELL SIGNAL - SHORTING"
 
 
 class SignalTracker( BaseCommunicationModule, ICommunicationModule):
@@ -34,18 +37,56 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         self.Configuration=None
         self.TwoCaptchaManager = None
         self.HedgeEyeUserManager = None
+        self.PublishLock = threading.Lock()
+        self.TransmittedSignals = {}
         # endregion
 
     # endregion
 
     #region Private Methods
 
+    def ReTransissionSignalThread(self):
+
+        while True:
+            try:
+                self.DoLog("Re transmitting previously sent trading signals",MessageType.INFO)
+
+                self.PublishLock.acquire(blocking=True)
+
+                for tradingSignal in self.TransmittedSignals.values():
+
+                    #we only retransmit Today's trading signals
+                    if tradingSignal.Date.date()==datetime.datetime.now().date():
+                        wrapper = TradingSignalWrapper(tradingSignal)
+                        self.DoLog("Re transmitting trading signal for symbol {} (id={})".
+                                   format(tradingSignal.Symbol,tradingSignal.GetSignalId()), MessageType.INFO)
+                        self.InvokingModule.ProcessIncoming(wrapper)
+
+            except Exception as e:
+                self.DoLog("Critical error Re Transmitting Signals: {}".format(str(e)), MessageType.ERROR)
+                winsound.Beep(1000, self.Configuration.SleepLengthSeconds * 1000)
+
+            finally:
+                if self.PublishLock.locked():
+                    self.PublishLock.release()
+                time.sleep(self.Configuration.SignalRetransmissionFreq)
+
+
     def CreateTradingSignal(self,date,side,signal):
         try:
-            flds=signal.split(" ")
+            symbol=None
+            price=None
+            flds = signal.split(" ")
 
-            symbol = flds[2]
-            price = float(flds[3].replace("$",""))
+            if  signal.startswith(_SELL_SIGNAL_SHORTING_PREFIX):
+                symbol = flds[4]
+                price = float(flds[5].replace("$", ""))
+            elif signal.startswith(_BUY_SIGNAL_COVERING_PREFIX) :
+                symbol = flds[5]
+                price = float(flds[6].replace("$", ""))
+            else:
+                symbol = flds[2]
+                price = float(flds[3].replace("$",""))
 
             tradingSignal = TradingSignalDto(symbol,date,side,price)
 
@@ -53,15 +94,17 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
 
             self.InvokingModule.ProcessIncoming(wrapper)
 
+            signal_id=tradingSignal.GetSignalId()
+
+            self.TransmittedSignals[signal_id]=tradingSignal
+
         except Exception as e:
             self.DoLog("Critical error Parsing Signal {}: {}".format(signal,str(e)), MessageType.ERROR)
             #winsound.Beep(1000, self.Configuration.SleepLengthSeconds * 1000)
 
-
     def LoadManagers(self):
 
         self.HedgeEyeUserManager = HedgeEyeUserManager(self.Configuration.DBConnectionString)
-
 
     def LoadConfig(self):
         self.Configuration = Configuration(self.ModuleConfigFile)
@@ -212,10 +255,12 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                     else:
                         break
                 self.DoLog("Searching for trading signals".format(datetime.datetime.now()), MessageType.INFO)
-                rows = driver.find_elements_by_xpath("//div[contains(@class,'col-sm-12 ext-list-article')]")
 
+                rows = driver.find_elements_by_xpath("//div[contains(@class,'col-sm-12 ext-list-article')]")
                 dateStr = driver.find_elements_by_xpath("//p[contains(@class,'article__meta__date')]")
                 titleStr = driver.find_elements_by_xpath("//h2[contains(@class,'article__title')]")
+
+                self.PublishLock.acquire(blocking=True)
 
                 for i,title in enumerate(titleStr):
 
@@ -224,12 +269,12 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
 
                     if title in signalsFound:
                         break
-                    elif title.startswith(_BUY_SIGNAL_PREFIX):
+                    elif title.startswith(_BUY_SIGNAL_PREFIX) or title.startswith(_BUY_SIGNAL_COVERING_PREFIX):
                         self.DoLog("Creating Buy Signal: {} at {}".format(title,date),MessageType.INFO)
                         signalsFound.append(title)
                         threading.Thread(target=self.CreateTradingSignal, args=(date,Side.Buy,title)).start()
 
-                    elif title.startswith(_SELL_SIGNAL_PREFIX):
+                    elif title.startswith(_SELL_SIGNAL_PREFIX) or title.startswith(_SELL_SIGNAL_SHORTING_PREFIX):
                         self.DoLog("Creating Sell Signal: {} at {}".format(title,date),MessageType.INFO)
                         signalsFound.append(title)
                         threading.Thread(target=self.CreateTradingSignal, args=(date,Side.Sell,title)).start()
@@ -242,6 +287,9 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                 self.DoLog("Critical error Downloading Signals: {}".format(str(e)), MessageType.ERROR)
                 #TODO: Publish Error
                 winsound.Beep(1000,self.Configuration.SleepLengthSeconds*1000)
+            finally:
+                if self.PublishLock.locked():
+                    self.PublishLock.release()
 
             time.sleep(self.Configuration.SignalUpdFreqSeconds)
 
@@ -290,6 +338,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                                                      self.Configuration.SiteKey)
 
             threading.Thread(target=self.TrackForSignals, args=()).start()
+            threading.Thread(target=self.ReTransissionSignalThread, args=()).start()
             self.DoLog("SignalTracker Successfully initialized", MessageType.INFO)
 
             return CMState.BuildSuccess(self)

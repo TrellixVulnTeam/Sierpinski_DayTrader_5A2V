@@ -64,7 +64,7 @@ class PotentialPosition():
 
     @staticmethod
     def GetPosId(symbol,side,qty):
-        return  "{}_{}_{}".format(symbol,_BUY if side == Side.Buy else _SELL,qty)
+        return  "{}_{}_{}".format(symbol,PotentialPosition.GetStrSide(side),qty)
 
     @staticmethod
     def GetRoutedTradingSignalId(symbol, side,date):

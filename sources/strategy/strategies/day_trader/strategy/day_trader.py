@@ -512,6 +512,11 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
 
         self.DoLog("Received trading signal for Symbol {} date {} side {} and price {}"
                    .format(symbol,date,side,price),MessageType.INFO)
+
+        if(date.date()!=datetime.datetime.now().date()):
+            self.DoLog("Discarding old trading signal for Symbol {} date {} side {} and price {}"
+                       .format(symbol, date, side, price), MessageType.INFO)
+
         try:
             potPotIdPrefix = PotentialPosition.GetPosIdPrefix(symbol, side)
             self.DoLog("{}-Looking for potential positions (from input file)".format(potPotIdPrefix),MessageType.INFO)
@@ -843,6 +848,32 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             self.ProcessError(ErrorWrapper(Exception(msg)))
             return CMState.BuildFailure(self, Exception=e)
 
+    def DeletePotentialPositions(self,newPosArr):
+        try:
+            self.RoutingLock.acquire(blocking=True)
+
+            toDel = []
+            for potPos in self.PotentialPositions.values():
+                # we look for this position in the fulk positions
+                newPotPos = next(iter(list(
+                            filter(lambda x: PotentialPosition.GetPosId(x.GetField(PositionField.Symbol),
+                                                                        x.GetField(PositionField.Side),
+                                                                        int(x.GetField(PositionField.Qty))) == potPos.Id,
+                                   newPosArr))),None)
+                if newPotPos is None:
+                    toDel.append(potPos)
+
+            for potPos in toDel:
+                self.DoLog("Deleting old Potential Position {} for PosId {}".format(potPos.Security.Symbol,potPos.Id),MessageType.INFO)
+                del self.PotentialPositions[potPos.Id]
+
+        except Exception as e:
+            msg = "Error deleting old positions exchange: {}!".format(str(e))
+            raise Exception(msg)
+        finally:
+            if self.RoutingLock.locked():
+                self.RoutingLock.release()
+
     def ProcessNewPositionBulkReq(self, wrapper):
         try:
 
@@ -856,6 +887,8 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             routedTradingSignals = self.RoutedTradingSignalManager.GetTradingSignals(fromDate)
 
             newPosArr = wrapper.GetField(PositionListField.Positions)
+
+            self.DeletePotentialPositions(newPosArr)
 
             for newPosWrapper in newPosArr:
                 threading.Thread(target=self.ProcessNewPositionReqThread, args=(newPosWrapper,routedTradingSignals,)).start()
