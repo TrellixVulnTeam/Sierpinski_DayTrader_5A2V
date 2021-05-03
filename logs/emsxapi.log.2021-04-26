@@ -1,0 +1,420 @@
+2021-04-26 16:52:36 [logger INFO] DayTrader  Initializing
+2021-04-26 16:52:36 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 16:52:36 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 16:52:36 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 16:52:36 [logger INFO] Connecting to localhost:8194
+2021-04-26 16:52:36 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 16:52:36 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 16:52:36 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 16:52:36 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 16:52:36 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 16:52:36 [logger INFO] Bloomberg Session started...
+2021-04-26 16:52:36 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 16:52:36 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 16:52:36 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 16:52:36 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 16:52:36 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 16:52:37 [logger INFO] SignalTracker  Initializing
+2021-04-26 16:52:37 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 16:52:37 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 16:52:37 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 16:52:37 [logger INFO] Opening Chrome window
+2021-04-26 16:52:38 [logger INFO] DayTrader Successfully initialized
+2021-04-26 16:55:47 [logger INFO] DayTrader  Initializing
+2021-04-26 16:55:47 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 16:55:47 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 16:55:47 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 16:55:47 [logger INFO] Connecting to localhost:8194
+2021-04-26 16:55:47 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 16:55:47 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 16:55:47 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 16:55:47 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 16:55:47 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 16:55:47 [logger INFO] Bloomberg Session started...
+2021-04-26 16:55:48 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 16:55:48 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 16:55:48 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 16:55:48 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 16:55:48 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 16:55:48 [logger INFO] SignalTracker  Initializing
+2021-04-26 16:55:48 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 16:55:48 [logger INFO] Opening Chrome window
+2021-04-26 16:55:48 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 16:55:48 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 16:55:49 [logger INFO] DayTrader Successfully initialized
+2021-04-26 16:55:54 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:55:57 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:55:59 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:03 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:05 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:08 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:10 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:12 [logger ERROR] Could not recover the captcha token in the attempt #8:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:15 [logger ERROR] Could not recover the captcha token in the attempt #9:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:17 [logger ERROR] Could not recover the captcha token in the attempt #10:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:17 [logger ERROR] More than 10 unsuccessful attempts. Restarting Login process.
+2021-04-26 16:56:21 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:24 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:26 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:29 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:31 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:34 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:36 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:39 [logger ERROR] Could not recover the captcha token in the attempt #8:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:56:41 [logger ERROR] Could not recover the captcha token in the attempt #9:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:29 [logger INFO] DayTrader  Initializing
+2021-04-26 16:58:29 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 16:58:29 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 16:58:29 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 16:58:29 [logger INFO] Connecting to localhost:8194
+2021-04-26 16:58:29 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 16:58:29 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 16:58:29 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 16:58:29 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 16:58:29 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 16:58:29 [logger INFO] Bloomberg Session started...
+2021-04-26 16:58:29 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 16:58:29 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 16:58:29 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 16:58:29 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 16:58:29 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 16:58:29 [logger INFO] SignalTracker  Initializing
+2021-04-26 16:58:29 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 16:58:29 [logger INFO] Opening Chrome window
+2021-04-26 16:58:29 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 16:58:29 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 16:58:30 [logger INFO] DayTrader Successfully initialized
+2021-04-26 16:58:37 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:39 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:42 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:44 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:47 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:49 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:52 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:54 [logger ERROR] Could not recover the captcha token in the attempt #8:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:57 [logger ERROR] Could not recover the captcha token in the attempt #9:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:59 [logger ERROR] Could not recover the captcha token in the attempt #10:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 16:58:59 [logger ERROR] More than 10 unsuccessful attempts. Restarting Login process.
+2021-04-26 17:09:01 [logger INFO] DayTrader  Initializing
+2021-04-26 17:09:01 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:09:01 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:09:02 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:09:02 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:09:02 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:09:02 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:09:02 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:09:02 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:09:02 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:09:02 [logger INFO] Bloomberg Session started...
+2021-04-26 17:09:02 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:09:02 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:09:02 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:09:02 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:09:02 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:09:02 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:09:02 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:09:02 [logger INFO] Opening Chrome window
+2021-04-26 17:09:02 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:09:02 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:09:03 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:09:09 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:11 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:14 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:17 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:19 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:22 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:24 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:28 [logger ERROR] Could not recover the captcha token in the attempt #8:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:30 [logger ERROR] Could not recover the captcha token in the attempt #9:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:33 [logger ERROR] Could not recover the captcha token in the attempt #10:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:33 [logger ERROR] More than 10 unsuccessful attempts. Restarting Login process.
+2021-04-26 17:09:37 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:39 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:09:42 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:11:54 [logger INFO] DayTrader  Initializing
+2021-04-26 17:11:54 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:11:54 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:11:55 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:11:55 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:11:55 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:11:55 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:11:55 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:11:55 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:11:55 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:11:55 [logger INFO] Bloomberg Session started...
+2021-04-26 17:11:55 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:11:55 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:11:55 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:11:55 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:11:55 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:11:55 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:11:55 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:11:55 [logger INFO] Opening Chrome window
+2021-04-26 17:11:55 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:11:55 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:11:56 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:12:02 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:12:20 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:12:37 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:12:55 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:13:12 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:13:32 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:ERROR_CAPTCHA_UNSOLVABLE
+2021-04-26 17:13:51 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:ERROR_CAPTCHA_UNSOLVABLE
+2021-04-26 17:14:02 [logger INFO] DayTrader  Initializing
+2021-04-26 17:14:03 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:14:03 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:14:03 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:14:03 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:14:03 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:14:03 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:14:03 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:14:03 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:14:03 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:14:03 [logger INFO] Bloomberg Session started...
+2021-04-26 17:14:03 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:14:03 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:14:03 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:14:03 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:14:03 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:14:03 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:14:03 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:14:03 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:14:03 [logger INFO] Opening Chrome window
+2021-04-26 17:14:03 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:14:04 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:14:09 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:14:26 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:14:44 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:15:01 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:15:19 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:15:36 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:15:54 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:16:30 [logger ERROR] Failed to log in for user mainlinelist20@gmail.com:Message: javascript error: Cannot read property 'style' of undefined
+  (Session info: chrome=90.0.4430.85)
+ 
+2021-04-26 17:16:35 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:16:52 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:17:11 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:17:28 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:17:46 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:18:03 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:18:20 [logger ERROR] Failed to log in for user maintrading20@gmail.com:Message: javascript error: Cannot read property 'style' of undefined
+  (Session info: chrome=90.0.4430.85)
+ 
+2021-04-26 17:18:25 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:21:08 [logger INFO] DayTrader  Initializing
+2021-04-26 17:21:08 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:21:08 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:21:08 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:21:08 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:21:08 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:21:08 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:21:08 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:21:08 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:21:08 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:21:08 [logger INFO] Bloomberg Session started...
+2021-04-26 17:21:08 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:21:08 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:21:08 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:21:09 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:21:09 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:21:09 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:21:09 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:21:09 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:21:09 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:21:09 [logger INFO] Opening Chrome window
+2021-04-26 17:21:10 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:21:15 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:21:33 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:21:50 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:22:32 [logger ERROR] Failed to log in for user michaelcakeny@gmail.com:Sorry, please complete the captcha 
+2021-04-26 17:22:36 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:22:54 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:23:11 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:23:31 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:23:39 [logger INFO] DayTrader  Initializing
+2021-04-26 17:23:39 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:23:39 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:23:39 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:23:39 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:23:39 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:23:39 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:23:39 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:23:39 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:23:39 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:23:39 [logger INFO] Bloomberg Session started...
+2021-04-26 17:23:39 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:23:39 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:23:39 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:23:40 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:23:40 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:23:40 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:23:40 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:23:40 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:23:40 [logger INFO] Opening Chrome window
+2021-04-26 17:23:40 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:23:41 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:23:46 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:24:03 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:24:21 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:25:02 [logger ERROR] Failed to log in for user jmcnamara90@gmail.com:Sorry, please complete the captcha 
+2021-04-26 17:25:08 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:25:28 [logger INFO] DayTrader  Initializing
+2021-04-26 17:25:28 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:25:28 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:25:28 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:25:28 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:25:28 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:25:28 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:25:28 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:25:28 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:25:28 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:25:28 [logger INFO] Bloomberg Session started...
+2021-04-26 17:25:28 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:25:28 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:25:28 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:25:28 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:25:28 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:25:28 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:25:28 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:25:28 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:25:28 [logger INFO] Opening Chrome window
+2021-04-26 17:25:28 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:25:29 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:25:35 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:25:52 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:26:34 [logger ERROR] Failed to log in for user johntradinglist20+web@gmail.com:Sorry, please complete the captcha 
+2021-04-26 17:26:45 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:27:15 [logger INFO] DayTrader  Initializing
+2021-04-26 17:27:15 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:27:15 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:27:15 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:27:15 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:27:15 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:27:15 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:27:15 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:27:15 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:27:15 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:27:15 [logger INFO] Bloomberg Session started...
+2021-04-26 17:27:15 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:27:15 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:27:15 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:27:16 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:27:16 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:27:16 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:27:16 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:27:16 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:27:16 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:27:16 [logger INFO] Opening Chrome window
+2021-04-26 17:27:17 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:27:22 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:27:40 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:27:57 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:28:15 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:28:49 [logger INFO] DayTrader  Initializing
+2021-04-26 17:28:49 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:28:49 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:28:49 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:28:49 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:28:49 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:28:49 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:28:50 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:28:50 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:28:50 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:28:50 [logger INFO] Bloomberg Session started...
+2021-04-26 17:28:50 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:28:50 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:28:50 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:28:50 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:28:50 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:28:50 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:28:50 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:28:50 [logger INFO] Opening Chrome window
+2021-04-26 17:28:50 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:28:50 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:28:51 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:29:13 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:29:45 [logger INFO] DayTrader  Initializing
+2021-04-26 17:29:45 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:29:45 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:29:45 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:29:45 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:29:45 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:29:45 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:29:45 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:29:45 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:29:45 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:29:45 [logger INFO] Bloomberg Session started...
+2021-04-26 17:29:45 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:29:45 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:29:45 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:29:46 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:29:46 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:29:46 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:29:46 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:29:46 [logger INFO] Opening Chrome window
+2021-04-26 17:29:46 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:29:46 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:29:47 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:30:23 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:30:49 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:31:06 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:31:24 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:32:48 [logger INFO] DayTrader  Initializing
+2021-04-26 17:32:48 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 17:32:48 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 17:32:48 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 17:32:48 [logger INFO] Connecting to localhost:8194
+2021-04-26 17:32:48 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 17:32:48 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:32:48 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:32:48 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 17:32:48 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 17:32:48 [logger INFO] Bloomberg Session started...
+2021-04-26 17:32:48 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 17:32:48 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 17:32:48 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 17:32:48 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 17:32:48 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 17:32:48 [logger INFO] SignalTracker  Initializing
+2021-04-26 17:32:48 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 17:32:48 [logger INFO] Opening Chrome window
+2021-04-26 17:32:48 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 17:32:48 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 17:32:49 [logger INFO] DayTrader Successfully initialized
+2021-04-26 17:32:54 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:33:12 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:33:29 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:33:47 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:34:04 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 17:34:48 [logger ERROR] Failed to log in for user bradoperationslist20+web@gmail.com:Sorry, please complete the captcha 
+2021-04-26 19:34:06 [logger INFO] DayTrader  Initializing
+2021-04-26 19:34:06 [logger INFO] FileHandlerModule  Initializing
+2021-04-26 19:34:06 [logger INFO] FileHandlerModule Successfully initialized
+2021-04-26 19:34:06 [logger INFO] Initializing Bloomberg Order Router
+2021-04-26 19:34:06 [logger INFO] Connecting to localhost:8194
+2021-04-26 19:34:06 [logger INFO] Bloomberg Order Router Initialized
+2021-04-26 19:34:06 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 19:34:06 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 19:34:06 [logger INFO] Bloomberg Session Connection is UP...
+2021-04-26 19:34:06 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-04-26 19:34:06 [logger INFO] Bloomberg Session started...
+2021-04-26 19:34:06 [logger INFO] Initializing Generic Market Order Router
+2021-04-26 19:34:06 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-04-26 19:34:06 [logger INFO] Generic Market Order Router Initialized
+2021-04-26 19:34:06 [logger INFO] SignalTracker  Initializing
+2021-04-26 19:34:06 [logger INFO] Starting Trading Signal Scrapping
+2021-04-26 19:34:06 [logger INFO] Opening Chrome window
+2021-04-26 19:34:06 [logger INFO] Re transmitting previously sent trading signals
+2021-04-26 19:34:06 [logger INFO] SignalTracker Successfully initialized
+2021-04-26 19:34:07 [logger INFO] Processing SERVICE_STATUS event
+2021-04-26 19:34:07 [logger INFO] Service //blp/emapisvc opened...
+2021-04-26 19:34:08 [logger INFO] DayTrader Successfully initialized
+2021-04-26 19:34:12 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 19:34:30 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 19:34:49 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 19:35:07 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 19:35:24 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 19:35:42 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:CAPCHA_NOT_READY
+2021-04-26 19:36:00 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:ERROR_CAPTCHA_UNSOLVABLE
+2021-04-26 19:36:17 [logger ERROR] Could not recover the captcha token in the attempt #8:Error recovering capcha token:ERROR_CAPTCHA_UNSOLVABLE

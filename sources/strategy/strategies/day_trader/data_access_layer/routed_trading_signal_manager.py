@@ -1,5 +1,7 @@
 import pyodbc
 import datetime
+
+from sources.strategy.strategies.day_trader.business_entities.potential_position import PotentialPosition
 from sources.strategy.strategies.day_trader.business_entities.trading_signal import *
 from sources.strategy.strategies.day_trader.business_entities.model_parameter import *
 
@@ -26,7 +28,9 @@ class RoutedTradingSignalManager():
     #region Private Methods
 
     def BuildRoutedTradingSignal(self, row):
-        routedTradingSingal = TradingSignal(symbol=row[_symbol], side=row[_side],
+        routedTradingSingal = TradingSignal(symbol=row[_symbol],
+                                            #side=PotentialPosition.GetEnumSide(row[_side]),
+                                            side=row[_side],
                                             date=row[_date],
                                             tradeId=row[_trade_id], creationTime=row[_creation_time],
                                             lastUpdateTimestamp=[_last_update_timestamp])

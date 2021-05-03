@@ -118,7 +118,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             routedSignalId = PotentialPosition.GetRoutedTradingSignalId(signal.Symbol, signal.Side, signal.CreationTime)
             self.DoLog("{}-Looking for potential positions to load routed trading signals".format(potPotIdPrefix), MessageType.INFO)
 
-            potPositionsArr = list(filter(lambda x: x.startswith(potPotIdPrefix), self.PotentialPositions))
+            potPositionsArr = list(filter(lambda x: x.Id.startswith(potPotIdPrefix), self.PotentialPositions.values()))
 
             for potPos in potPositionsArr:
                 potPos.RoutedTradingSignals[routedSignalId]=signal
@@ -344,7 +344,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
                         threading.Thread(target=self.PublishSummaryThread, args=(summary, potPos.Id)).start()
                         return CMState.BuildSuccess(self)
                     else:
-                        self.DoLog("Received execution report for a managed position {},, but we cannot find its execution summary".format(pos_id),MessageType.ERROR)
+                        self.DoLog("Received execution report for a managed position {} but we cannot find its execution summary".format(pos_id),MessageType.ERROR)
                 else:
                     self.ProcessExternalTrading(pos_id,exec_report)
                     #self.DoLog("Received execution report for unknown PosId {}".format(pos_id), MessageType.INFO)
@@ -492,14 +492,6 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             if self.RoutingLock.locked():
                 self.RoutingLock.release()
 
-    def PersistRoutedTradingSignal(self,symbol,side,date,tradeId=None):
-
-        routedTradingSingal = TradingSignal(symbol=symbol,
-                                            side=PotentialPosition.GetStrSide(side),
-                                            date=date, tradeId=tradeId)
-
-        self.DoPersistRoutedTradingSignal(routedTradingSingal)
-
     def DoPersistRoutedTradingSignal(self,routedTradingSingal):
         self.RoutedTradingSignalManager.PersistTradingSignal(routedTradingSingal)
 
@@ -516,6 +508,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
         if(date.date()!=datetime.datetime.now().date()):
             self.DoLog("Discarding old trading signal for Symbol {} date {} side {} and price {}"
                        .format(symbol, date, side, price), MessageType.INFO)
+            return
 
         try:
             potPotIdPrefix = PotentialPosition.GetPosIdPrefix(symbol, side)
@@ -533,7 +526,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
 
                 potPos=self.PotentialPositions[potPosKey]
                 routedTradingSignalId = PotentialPosition.GetRoutedTradingSignalId(symbol, side, date)
-                if PotentialPosition.GetRoutedTradingSignalId(symbol, side, date) in potPos.RoutedTradingSignals:
+                if routedTradingSignalId in potPos.RoutedTradingSignals:
                     self.DoLog("Discarding Trading Signal because it has already been routed: symbol={} Side={} Date={}"
                                .format(symbol,side,date),MessageType.ERROR)
                     self.DoPersistRoutedTradingSignal(potPos.RoutedTradingSignals[routedTradingSignalId])
@@ -553,18 +546,19 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
                 potPos.ExecutionSummaries[routePos.PosId]=ExecutionSummary(datetime.datetime.now(), routePos)
 
                 self.NextPostId = uuid.uuid4()
+                self.PositionSecurities[routePos.PosId] = potPos
 
-                self.DoLog("Routing position for Symbol {} date {} side {} and price {}"
-                           .format(symbol,date,side,price),MessageType.INFO)
+                self.DoLog("Routing position for Symbol {} date {} side {} and price {}".format(symbol,date,side,price),MessageType.INFO)
                 posWrapper = PositionWrapper(routePos)
                 self.OrderRoutingModule.ProcessMessage(posWrapper)
 
-                self.DoLog("Persisting position for Symbol {} date {} side {} and price {}"
-                           .format(symbol, date, side, price), MessageType.INFO)
-                self.PersistRoutedTradingSignal(symbol=symbol, side=side, date=date)
+                self.DoLog("Persisting position for Symbol {} date {} side {} and price {}" .format(symbol, date, side, price), MessageType.INFO)
 
-                self.DoLog("{}-Trading signal successfully routed for symbol {} and side {} at {} "
-                            .format(potPotIdPrefix,symbol,side,price), MessageType.INFO)
+                routedTradingSignal = TradingSignal(symbol=symbol,side=PotentialPosition.GetStrSide(side),date=date, tradeId=None)
+                potPos.RoutedTradingSignals[routedTradingSignalId]=routedTradingSignal
+                self.DoPersistRoutedTradingSignal(routedTradingSignal)
+
+                self.DoLog("{}-Trading signal successfully routed for symbol {} and side {} at {} ".format(potPotIdPrefix,symbol,side,price), MessageType.INFO)
         except Exception as e:
             traceback.print_exc()
             self.ProcessErrorInMethod("@DayTrader.ProcessTradingSignal", e,symbol)

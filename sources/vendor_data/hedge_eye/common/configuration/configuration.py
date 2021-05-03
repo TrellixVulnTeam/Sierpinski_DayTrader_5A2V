@@ -13,6 +13,7 @@ class Configuration:
         self.SleepLengthSeconds = int( config['DEFAULT']['SLEEP_LENGTH_SECONDS'])
         self.SignalUpdFreqSeconds = int( config['DEFAULT']['SIGNAL_UPD_FREQ-SECONDS'])
         self.SignalRetransmissionFreq = int(config['DEFAULT']['SIGNAL_RETRANSMISSION_FREQ-SECONDS'])
+        self.SleepBetweenLoginAttempts = int(config['DEFAULT']['SLEEP_BTW_LOGIN_ATTEMPTS'])
 
         self.LoginURL = config['DEFAULT']['LOGIN_URL']
         self.CaptchaSvcURL = config['DEFAULT']['CAPTCHA_SVC_URL']

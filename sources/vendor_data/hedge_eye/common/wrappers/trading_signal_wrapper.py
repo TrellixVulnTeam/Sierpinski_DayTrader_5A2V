@@ -7,6 +7,13 @@ class TradingSignalWrapper(Wrapper):
     def __init__(self, pTradingSignal):
         self.TradingSignal = pTradingSignal
 
+
+    #region Private Methods
+
+
+
+    #endregion
+
     def GetAction(self):
         return Actions.TRADING_SIGNAL
 

@@ -30,8 +30,8 @@ class TwoCaptchaManager(BaseRESTManager):
 
     def GetCapthaRequestId(self):
 
-        queryString = "?key={}&method={}&sitekey={}&pageurl={}" \
-            .format(self.TwoCaptchaCustomerKey, "hcaptcha", self.SiteKey, self.LoginURL)
+        queryString = "?key={}&method={}&googlekey={}&pageurl={}" \
+            .format(self.TwoCaptchaCustomerKey, "userrecaptcha", self.SiteKey, self.LoginURL)
 
         url = self.CaptchaSvcURL + self._REQUEST_ID_SITE() + queryString
 

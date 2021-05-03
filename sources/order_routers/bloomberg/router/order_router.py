@@ -806,7 +806,7 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
     def SendMockFilledExecutionReportsThread(self,newOrder):
         try:
 
-            newOrder.OrderId = int(time.time())
+            newOrder.OrderId = int(time.time()*1000.0)
             newOrder.MarketArrivalTime = datetime.now()
             self.ActiveOrders[newOrder.OrderId] = newOrder
 

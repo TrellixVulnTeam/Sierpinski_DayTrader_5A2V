@@ -1,0 +1,10 @@
+ticker,exchange,side,quantity,orderType,limit,strategy
+STZ,US,SS,14,MKT,,SOR
+OXY,US,B,6,MKT,,SOR
+OXM,US,SS,5,MKT,,SOR
+EA,US,B,18,MKT,,SOR
+GILD,US,B,4,MKT,,SOR
+CMA,US,B,27,MKT,,SOR
+SRPT,US,B,2,MKT,,SOR
+PRU,US,B,20,MKT,,SOR
+DVN,US,B,9,MKT,,SOR

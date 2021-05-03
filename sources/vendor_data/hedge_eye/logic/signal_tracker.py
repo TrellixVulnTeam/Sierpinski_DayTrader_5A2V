@@ -149,6 +149,8 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                     if(i>10 and not found):
                         self.DoLog("More than 10 unsuccessful attempts. Restarting Login process.",MessageType.ERROR)
                         break
+                    elif not found:
+                        time.sleep(self.Configuration.SleepBetweenLoginAttempts)
 
     def DoLoadToken(self,driver,cntrl,token):
         driver.execute_script(
@@ -213,7 +215,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                 driver.get(self.Configuration.LoginURL)
 
                 self.DoLoadToken(driver, "g-recaptcha-response", token)
-                self.DoLoadToken(driver, "h-captcha-response", token)
+                #self.DoLoadToken(driver, "h-captcha-response", token)
 
                 xpaths = {'email': "//input[@name='user[email]']", 'pw': "//input[@name='user[password]']"}
                 current_url = driver.current_url
