@@ -965,3 +965,560 @@
 2021-05-25 12:58:59 [logger INFO] Managed Position Updated: Arrival=2021-05-25 12:58:59.783125 TradeId=trd__POAHY_1621958339767 PosId=bbc46615-aeb4-41d0-9b8c-f03c93e93624 Symbol=POAHY Side=Side.Sell Final Status=PositionStatus.New OrdQty=10 CumQty=0 LvsQty=10 AvgPx=None Text=Fake New Order 
 2021-05-25 12:59:00 [logger INFO] POAHY_SELL-Trading signal successfully routed for symbol POAHY and side Side.Sell at 10.73 
 2021-05-25 12:59:01 [logger INFO] Managed Position Finished: Arrival=2021-05-25 12:59:01.859061 TradeId=trd__POAHY_1621958339767 PosId=bbc46615-aeb4-41d0-9b8c-f03c93e93624 Symbol=POAHY Side=Side.Sell Final Status=PositionStatus.Filled OrdQty=10 CumQty=10 LvsQty=0 AvgPx=10.73 Text=Fake Filled Order 
+2021-05-25 17:31:41 [logger INFO] DayTrader  Initializing
+2021-05-25 17:31:41 [logger INFO] FileHandlerModule  Initializing
+2021-05-25 17:31:41 [logger INFO] FileHandlerModule Successfully initialized
+2021-05-25 17:31:41 [logger INFO] Found CSV file input reduced 10.csv. Extracting positions to route
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol STZ qty =14 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol OXY qty =6 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol OXM qty =5 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol EA qty =18 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol STKL qty =35 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol GILD qty =4 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol CMA qty =27 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol SRPT qty =2 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol PRU qty =20 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol DVN qty =9 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol DLTR qty =10 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol STKL qty =10 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol NFLX qty =15 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol BMBL qty =5 side=BS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] Creating potential position for symbol POAHY qty =10 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:31:41 [logger INFO] File Handler Module : Moving file ./files/input/input reduced 10.csv to ./files/processed/input reduced 10.csv
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol STZ side Side.SellShort qty 14
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol OXY side Side.Buy qty 6
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol OXM side Side.SellShort qty 5
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol EA side Side.Buy qty 18
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol STKL side Side.SellShort qty 35
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol GILD side Side.Buy qty 4
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol CMA side Side.Buy qty 27
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol SRPT side Side.Buy qty 2
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol PRU side Side.Buy qty 20
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol DVN side Side.Buy qty 9
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol DLTR side Side.SellShort qty 10
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol STKL side Side.SellShort qty 10
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol NFLX side Side.Buy qty 15
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol BMBL side Side.BuyToClose qty 5
+2021-05-25 17:31:41 [logger INFO] Created potential position from input file for symbol POAHY side Side.SellShort qty 10
+2021-05-25 17:31:41 [logger INFO] Initializing Bloomberg Order Router
+2021-05-25 17:31:41 [logger INFO] Working offline - Mock implemented
+2021-05-25 17:31:41 [logger INFO] Bloomberg Order Router Initialized
+2021-05-25 17:31:41 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-05-25 17:31:42 [logger INFO] Initializing Generic Market Order Router
+2021-05-25 17:31:42 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-05-25 17:31:42 [logger INFO] Generic Market Order Router Initialized
+2021-05-25 17:31:42 [logger INFO] SignalTracker  Initializing
+2021-05-25 17:31:42 [logger INFO] Starting Trading Signal Scrapping
+2021-05-25 17:31:42 [logger INFO] Opening Chrome window
+2021-05-25 17:31:42 [logger INFO] Re transmitting previously sent trading signals
+2021-05-25 17:31:42 [logger INFO] SignalTracker Successfully initialized
+2021-05-25 17:31:43 [logger INFO] DayTrader Successfully initialized
+2021-05-25 17:31:49 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-05-25 17:32:01 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-05-25 17:32:24 [logger INFO] Searching for trading signals
+2021-05-25 17:32:30 [logger INFO] Creating Sell Signal: SELL SIGNAL RH $631.88 at 2021-05-25 09:46:00
+2021-05-25 17:32:30 [logger INFO] Creating Sell Signal: SELL SIGNAL XLE $52.58 at 2021-05-25 09:43:00
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol RH date 2021-05-25 09:46:00 side Side.Sell and price 631.88
+2021-05-25 17:32:30 [logger INFO] RH_SELL-Looking for potential positions (from input file)
+2021-05-25 17:32:30 [logger INFO] RH_SELL-Found 0 potential positions
+2021-05-25 17:32:30 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING BYND $118.91 at 2021-05-24 03:06:00
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol XLE date 2021-05-25 09:43:00 side Side.Sell and price 52.58
+2021-05-25 17:32:30 [logger INFO] XLE_SELL-Looking for potential positions (from input file)
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol BYND date 2021-05-24 03:06:00 side Side.Sell and price 118.91
+2021-05-25 17:32:30 [logger INFO] Creating Sell Signal: SELL SIGNAL SBUX $112.65 at 2021-05-24 02:55:00
+2021-05-25 17:32:30 [logger INFO] XLE_SELL-Found 0 potential positions
+2021-05-25 17:32:30 [logger INFO] Discarding old trading signal for Symbol BYND date 2021-05-24 03:06:00 side Side.Sell and price 118.91
+2021-05-25 17:32:30 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT FXI $45.17 at <class 'datetime.date'>
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol SBUX date 2021-05-24 02:55:00 side Side.Sell and price 112.65
+2021-05-25 17:32:30 [logger INFO] Creating Sell Signal: SELL SIGNAL IHRT $22.92 at 2021-05-24 01:03:00
+2021-05-25 17:32:30 [logger INFO] Discarding old trading signal for Symbol SBUX date 2021-05-24 02:55:00 side Side.Sell and price 112.65
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol FXI date 2021-05-24 01:05:00 side Side.Buy and price 45.17
+2021-05-25 17:32:30 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT NFLX $500.94 at <class 'datetime.date'>
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol IHRT date 2021-05-24 01:03:00 side Side.Sell and price 22.92
+2021-05-25 17:32:30 [logger INFO] Discarding old trading signal for Symbol FXI date 2021-05-24 01:05:00 side Side.Buy and price 45.17
+2021-05-25 17:32:30 [logger INFO] Discarding old trading signal for Symbol IHRT date 2021-05-24 01:03:00 side Side.Sell and price 22.92
+2021-05-25 17:32:30 [logger INFO] Creating Sell Signal: SELL SIGNAL XLF $37.75 at 2021-05-24 12:54:00
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol NFLX date 2021-05-24 01:00:00 side Side.Buy and price 500.94
+2021-05-25 17:32:30 [logger INFO] Creating Buy Signal: BUY SIGNAL CTRN $89.48 at <class 'datetime.date'>
+2021-05-25 17:32:30 [logger INFO] Discarding old trading signal for Symbol NFLX date 2021-05-24 01:00:00 side Side.Buy and price 500.94
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol XLF date 2021-05-24 12:54:00 side Side.Sell and price 37.75
+2021-05-25 17:32:30 [logger INFO] Creating Buy Signal: BUY SIGNAL TMKRU $10.01 at <class 'datetime.date'>
+2021-05-25 17:32:30 [logger INFO] Received trading signal for Symbol CTRN date 2021-05-21 11:58:00 side Side.Buy and price 89.48
+2021-05-25 17:32:30 [logger INFO] Discarding old trading signal for Symbol XLF date 2021-05-24 12:54:00 side Side.Sell and price 37.75
+2021-05-25 17:32:31 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT EQC $27.50 at <class 'datetime.date'>
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol TMKRU date 2021-05-21 10:13:00 side Side.Buy and price 10.01
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol CTRN date 2021-05-21 11:58:00 side Side.Buy and price 89.48
+2021-05-25 17:32:31 [logger INFO] Creating Sell Signal: SELL SIGNAL BNO $16.99 at 2021-05-21 10:02:00
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol TMKRU date 2021-05-21 10:13:00 side Side.Buy and price 10.01
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol EQC date 2021-05-21 10:04:00 side Side.Buy and price 27.5
+2021-05-25 17:32:31 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING TLT $137.45 at 2021-05-21 09:47:00
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol BNO date 2021-05-21 10:02:00 side Side.Sell and price 16.99
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol EQC date 2021-05-21 10:04:00 side Side.Buy and price 27.5
+2021-05-25 17:32:31 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING PINS $61.02 at 2021-05-20 03:37:00
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol TLT date 2021-05-21 09:47:00 side Side.Sell and price 137.45
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-21 10:02:00 side Side.Sell and price 16.99
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol TLT date 2021-05-21 09:47:00 side Side.Sell and price 137.45
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol PINS date 2021-05-20 03:37:00 side Side.Sell and price 61.02
+2021-05-25 17:32:31 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING NFLX $501.87 at 2021-05-20 03:33:00
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol PINS date 2021-05-20 03:37:00 side Side.Sell and price 61.02
+2021-05-25 17:32:31 [logger INFO] Creating Buy Signal: BUY SIGNAL AWI $102.75 at <class 'datetime.date'>
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol NFLX date 2021-05-20 03:33:00 side Side.Sell and price 501.87
+2021-05-25 17:32:31 [logger INFO] Creating Sell Signal: SELL SIGNAL BSPE $10.13 at 2021-05-20 03:19:00
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol AWI date 2021-05-20 03:26:00 side Side.Buy and price 102.75
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol NFLX date 2021-05-20 03:33:00 side Side.Sell and price 501.87
+2021-05-25 17:32:31 [logger INFO] Discarding old trading signal for Symbol AWI date 2021-05-20 03:26:00 side Side.Buy and price 102.75
+2021-05-25 17:32:31 [logger INFO] Creating Sell Signal: SELL SIGNAL BLDE $8.61 at 2021-05-20 03:16:00
+2021-05-25 17:32:31 [logger INFO] Received trading signal for Symbol BSPE date 2021-05-20 03:19:00 side Side.Sell and price 10.13
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol BSPE date 2021-05-20 03:19:00 side Side.Sell and price 10.13
+2021-05-25 17:32:32 [logger INFO] Creating Buy Signal: BUY SIGNAL IHRT $22.01 at <class 'datetime.date'>
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol BLDE date 2021-05-20 03:16:00 side Side.Sell and price 8.61
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol BLDE date 2021-05-20 03:16:00 side Side.Sell and price 8.61
+2021-05-25 17:32:32 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING FXI $45.52 at 2021-05-20 10:26:00
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol IHRT date 2021-05-20 10:30:00 side Side.Buy and price 22.01
+2021-05-25 17:32:32 [logger INFO] Creating Buy Signal: BUY SIGNAL BNO $16.84 at <class 'datetime.date'>
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol FXI date 2021-05-20 10:26:00 side Side.Sell and price 45.52
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol IHRT date 2021-05-20 10:30:00 side Side.Buy and price 22.01
+2021-05-25 17:32:32 [logger INFO] Creating Buy Signal: BUY SIGNAL NTRA $87.80 at <class 'datetime.date'>
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol FXI date 2021-05-20 10:26:00 side Side.Sell and price 45.52
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol BNO date 2021-05-20 10:21:00 side Side.Buy and price 16.84
+2021-05-25 17:32:32 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT NKLA $12.64 at <class 'datetime.date'>
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-20 10:21:00 side Side.Buy and price 16.84
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol NTRA date 2021-05-20 10:14:00 side Side.Buy and price 87.8
+2021-05-25 17:32:32 [logger INFO] Creating Sell Signal: SELL SIGNAL FFNTF $1.31 at 2021-05-20 10:08:00
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol NTRA date 2021-05-20 10:14:00 side Side.Buy and price 87.8
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol NKLA date 2021-05-20 10:10:00 side Side.Buy and price 12.64
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol NKLA date 2021-05-20 10:10:00 side Side.Buy and price 12.64
+2021-05-25 17:32:32 [logger INFO] Creating Buy Signal: BUY SIGNAL XLE $51.52 at <class 'datetime.date'>
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol FFNTF date 2021-05-20 10:08:00 side Side.Sell and price 1.31
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol XLE date 2021-05-20 10:01:00 side Side.Buy and price 51.52
+2021-05-25 17:32:32 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING FROG $38.46 at 2021-05-19 02:14:00
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol FFNTF date 2021-05-20 10:08:00 side Side.Sell and price 1.31
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol XLE date 2021-05-20 10:01:00 side Side.Buy and price 51.52
+2021-05-25 17:32:32 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT FUBO $20.28 at <class 'datetime.date'>
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol FROG date 2021-05-19 02:14:00 side Side.Sell and price 38.46
+2021-05-25 17:32:32 [logger INFO] Discarding old trading signal for Symbol FROG date 2021-05-19 02:14:00 side Side.Sell and price 38.46
+2021-05-25 17:32:32 [logger INFO] Creating Sell Signal: SELL SIGNAL BCO $78.64 at 2021-05-19 02:09:00
+2021-05-25 17:32:32 [logger INFO] Received trading signal for Symbol FUBO date 2021-05-19 02:11:00 side Side.Buy and price 20.28
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol FUBO date 2021-05-19 02:11:00 side Side.Buy and price 20.28
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol BCO date 2021-05-19 02:09:00 side Side.Sell and price 78.64
+2021-05-25 17:32:33 [logger INFO] Creating Buy Signal: BUY SIGNAL BCO $76.78 at <class 'datetime.date'>
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol BCO date 2021-05-19 02:09:00 side Side.Sell and price 78.64
+2021-05-25 17:32:33 [logger INFO] Creating Buy Signal: BUY SIGNAL XLF $36.63 at <class 'datetime.date'>
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol BCO date 2021-05-19 10:19:00 side Side.Buy and price 76.78
+2021-05-25 17:32:33 [logger INFO] Creating Buy Signal: BUY SIGNAL CPER $28.09 at <class 'datetime.date'>
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol BCO date 2021-05-19 10:19:00 side Side.Buy and price 76.78
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol XLF date 2021-05-19 10:12:00 side Side.Buy and price 36.63
+2021-05-25 17:32:33 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING PLUG $27.29 at 2021-05-18 03:17:00
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol CPER date 2021-05-19 10:04:00 side Side.Buy and price 28.09
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol XLF date 2021-05-19 10:12:00 side Side.Buy and price 36.63
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol CPER date 2021-05-19 10:04:00 side Side.Buy and price 28.09
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol PLUG date 2021-05-18 03:17:00 side Side.Sell and price 27.29
+2021-05-25 17:32:33 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING EQC $27.43 at 2021-05-18 10:21:00
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol PLUG date 2021-05-18 03:17:00 side Side.Sell and price 27.29
+2021-05-25 17:32:33 [logger INFO] Creating Sell Signal: SELL SIGNAL OUST $9.89 at 2021-05-18 10:09:00
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol EQC date 2021-05-18 10:21:00 side Side.Sell and price 27.43
+2021-05-25 17:32:33 [logger INFO] Creating Sell Signal: SELL SIGNAL DUFRY $6.16 at 2021-05-18 10:07:00
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol OUST date 2021-05-18 10:09:00 side Side.Sell and price 9.89
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol EQC date 2021-05-18 10:21:00 side Side.Sell and price 27.43
+2021-05-25 17:32:33 [logger INFO] Creating Sell Signal: SELL SIGNAL MUDS $13.36 at 2021-05-18 10:04:00
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol DUFRY date 2021-05-18 10:07:00 side Side.Sell and price 6.16
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol OUST date 2021-05-18 10:09:00 side Side.Sell and price 9.89
+2021-05-25 17:32:33 [logger INFO] Discarding old trading signal for Symbol DUFRY date 2021-05-18 10:07:00 side Side.Sell and price 6.16
+2021-05-25 17:32:33 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING GLD $174.84 at 2021-05-18 09:50:00
+2021-05-25 17:32:33 [logger INFO] Received trading signal for Symbol MUDS date 2021-05-18 10:04:00 side Side.Sell and price 13.36
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING FUBO $20.37 at 2021-05-17 03:52:00
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol GLD date 2021-05-18 09:50:00 side Side.Sell and price 174.84
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol MUDS date 2021-05-18 10:04:00 side Side.Sell and price 13.36
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol GLD date 2021-05-18 09:50:00 side Side.Sell and price 174.84
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol FUBO date 2021-05-17 03:52:00 side Side.Sell and price 20.37
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING PLUG $24.92 at 2021-05-17 03:50:00
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol FUBO date 2021-05-17 03:52:00 side Side.Sell and price 20.37
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING SFIX $44.00 at 2021-05-17 03:48:00
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol PLUG date 2021-05-17 03:50:00 side Side.Sell and price 24.92
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol PLUG date 2021-05-17 03:50:00 side Side.Sell and price 24.92
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL GDRX $30.43 at 2021-05-17 03:20:00
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol SFIX date 2021-05-17 03:48:00 side Side.Sell and price 44.0
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL CTRN $99.58 at 2021-05-17 03:18:00
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol GDRX date 2021-05-17 03:20:00 side Side.Sell and price 30.43
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol SFIX date 2021-05-17 03:48:00 side Side.Sell and price 44.0
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol GDRX date 2021-05-17 03:20:00 side Side.Sell and price 30.43
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL PENN $80.56 at 2021-05-17 03:14:00
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol CTRN date 2021-05-17 03:18:00 side Side.Sell and price 99.58
+2021-05-25 17:32:34 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT DASH $133.46 at <class 'datetime.date'>
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol PENN date 2021-05-17 03:14:00 side Side.Sell and price 80.56
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol CTRN date 2021-05-17 03:18:00 side Side.Sell and price 99.58
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL HYG $87.08 at 2021-05-17 03:06:00
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol PENN date 2021-05-17 03:14:00 side Side.Sell and price 80.56
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol DASH date 2021-05-17 03:12:00 side Side.Buy and price 133.46
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol DASH date 2021-05-17 03:12:00 side Side.Buy and price 133.46
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol HYG date 2021-05-17 03:06:00 side Side.Sell and price 87.08
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING DASH $140.43 at 2021-05-14 03:06:00
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol HYG date 2021-05-17 03:06:00 side Side.Sell and price 87.08
+2021-05-25 17:32:34 [logger INFO] Creating Buy Signal: BUY SIGNAL FFNTF $1.24 at <class 'datetime.date'>
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol DASH date 2021-05-14 03:06:00 side Side.Sell and price 140.43
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol DASH date 2021-05-14 03:06:00 side Side.Sell and price 140.43
+2021-05-25 17:32:34 [logger INFO] Received trading signal for Symbol FFNTF date 2021-05-14 03:02:00 side Side.Buy and price 1.24
+2021-05-25 17:32:34 [logger INFO] Creating Sell Signal: SELL SIGNAL BYD $62.37 at 2021-05-14 02:57:00
+2021-05-25 17:32:34 [logger INFO] Discarding old trading signal for Symbol FFNTF date 2021-05-14 03:02:00 side Side.Buy and price 1.24
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL PLCE $74.88 at 2021-05-14 10:42:00
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol BYD date 2021-05-14 02:57:00 side Side.Sell and price 62.37
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol BYD date 2021-05-14 02:57:00 side Side.Sell and price 62.37
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL BNO $17.36 at 2021-05-14 10:39:00
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol PLCE date 2021-05-14 10:42:00 side Side.Sell and price 74.88
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol PLCE date 2021-05-14 10:42:00 side Side.Sell and price 74.88
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol BNO date 2021-05-14 10:39:00 side Side.Sell and price 17.36
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL XRT $92.21 at 2021-05-14 10:35:00
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-14 10:39:00 side Side.Sell and price 17.36
+2021-05-25 17:32:35 [logger INFO] Creating Buy Signal: BUY SIGNAL PENN $75.91 at <class 'datetime.date'>
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol XRT date 2021-05-14 10:35:00 side Side.Sell and price 92.21
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol XRT date 2021-05-14 10:35:00 side Side.Sell and price 92.21
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol PENN date 2021-05-13 03:26:00 side Side.Buy and price 75.91
+2021-05-25 17:32:35 [logger INFO] Creating Buy Signal: BUY SIGNAL BNO $17.02 at <class 'datetime.date'>
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol PENN date 2021-05-13 03:26:00 side Side.Buy and price 75.91
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL V $224.40 at 2021-05-13 03:15:00
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol BNO date 2021-05-13 03:20:00 side Side.Buy and price 17.02
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-13 03:20:00 side Side.Buy and price 17.02
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL PSA $275.16 at 2021-05-13 03:13:00
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol V date 2021-05-13 03:15:00 side Side.Sell and price 224.4
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol V date 2021-05-13 03:15:00 side Side.Sell and price 224.4
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol PSA date 2021-05-13 03:13:00 side Side.Sell and price 275.16
+2021-05-25 17:32:35 [logger INFO] Creating Buy Signal: BUY SIGNAL PLCE $71.72 at <class 'datetime.date'>
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol PSA date 2021-05-13 03:13:00 side Side.Sell and price 275.16
+2021-05-25 17:32:35 [logger INFO] Creating Buy Signal: BUY SIGNAL RH $635.99 at <class 'datetime.date'>
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol PLCE date 2021-05-13 03:10:00 side Side.Buy and price 71.72
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol PLCE date 2021-05-13 03:10:00 side Side.Buy and price 71.72
+2021-05-25 17:32:35 [logger INFO] Creating Buy Signal: BUY SIGNAL BYD $59.96 at <class 'datetime.date'>
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol RH date 2021-05-13 10:18:00 side Side.Buy and price 635.99
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol RH date 2021-05-13 10:18:00 side Side.Buy and price 635.99
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING NKLA $12.52 at 2021-05-13 10:06:00
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol BYD date 2021-05-13 10:09:00 side Side.Buy and price 59.96
+2021-05-25 17:32:35 [logger INFO] Discarding old trading signal for Symbol BYD date 2021-05-13 10:09:00 side Side.Buy and price 59.96
+2021-05-25 17:32:35 [logger INFO] Creating Sell Signal: SELL SIGNAL POAHY $10.73 at 2021-05-25 09:50:00
+2021-05-25 17:32:35 [logger INFO] Received trading signal for Symbol NKLA date 2021-05-13 10:06:00 side Side.Sell and price 12.52
+2021-05-25 17:32:36 [logger INFO] All signals processed
+2021-05-25 17:32:36 [logger INFO] Received trading signal for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:32:36 [logger INFO] Discarding old trading signal for Symbol NKLA date 2021-05-13 10:06:00 side Side.Sell and price 12.52
+2021-05-25 17:32:36 [logger INFO] POAHY_SELL-Looking for potential positions (from input file)
+2021-05-25 17:32:36 [logger INFO] POAHY_SELL-Found 1 potential positions
+2021-05-25 17:32:36 [logger INFO] Routing position for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:32:36 [logger INFO] Persisting position for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:32:36 [logger INFO] Managed Position Updated: Arrival=2021-05-25 17:32:36.267806 TradeId=trd__POAHY_1621974756219 PosId=18ecc2c1-3b60-41e7-b321-fa19a02cca05 Symbol=POAHY Side=Side.Sell Final Status=PositionStatus.New OrdQty=10 CumQty=0 LvsQty=10 AvgPx=None Text=Fake New Order 
+2021-05-25 17:32:36 [logger INFO] POAHY_SELL-Trading signal successfully routed for symbol POAHY and side Side.Sell at 10.73 
+2021-05-25 17:32:38 [logger INFO] Managed Position Finished: Arrival=2021-05-25 17:32:38.328298 TradeId=trd__POAHY_1621974756219 PosId=18ecc2c1-3b60-41e7-b321-fa19a02cca05 Symbol=POAHY Side=Side.Sell Final Status=PositionStatus.Filled OrdQty=10 CumQty=10 LvsQty=0 AvgPx=10.73 Text=Fake Filled Order 
+2021-05-25 17:33:48 [logger INFO] DayTrader  Initializing
+2021-05-25 17:33:48 [logger INFO] FileHandlerModule  Initializing
+2021-05-25 17:33:48 [logger INFO] FileHandlerModule Successfully initialized
+2021-05-25 17:33:48 [logger INFO] Found CSV file input reduced 10.csv. Extracting positions to route
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol STZ qty =14 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol OXY qty =6 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol OXM qty =5 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol EA qty =18 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol STKL qty =35 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol GILD qty =4 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol CMA qty =27 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol SRPT qty =2 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol PRU qty =20 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol DVN qty =9 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol DLTR qty =10 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol STKL qty =10 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol NFLX qty =15 side=B order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol BMBL qty =5 side=BS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] Creating potential position for symbol POAHY qty =10 side=SS order type=MKT limit= broker=BMTB strategy=SOR 
+2021-05-25 17:33:48 [logger INFO] File Handler Module : Moving file ./files/input/input reduced 10.csv to ./files/processed/input reduced 10.csv
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol STZ side Side.SellShort qty 14
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol OXY side Side.Buy qty 6
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol OXM side Side.SellShort qty 5
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol EA side Side.Buy qty 18
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol STKL side Side.SellShort qty 35
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol GILD side Side.Buy qty 4
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol CMA side Side.Buy qty 27
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol SRPT side Side.Buy qty 2
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol PRU side Side.Buy qty 20
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol DVN side Side.Buy qty 9
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol DLTR side Side.SellShort qty 10
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol STKL side Side.SellShort qty 10
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol NFLX side Side.Buy qty 15
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol BMBL side Side.BuyToClose qty 5
+2021-05-25 17:33:48 [logger INFO] Created potential position from input file for symbol POAHY side Side.SellShort qty 10
+2021-05-25 17:33:48 [logger INFO] Initializing Bloomberg Order Router
+2021-05-25 17:33:48 [logger INFO] Connecting to localhost:8194
+2021-05-25 17:33:48 [logger INFO] Bloomberg Order Router Initialized
+2021-05-25 17:33:48 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-05-25 17:33:48 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-05-25 17:33:48 [logger INFO] Bloomberg Session Connection is UP...
+2021-05-25 17:33:48 [logger INFO] Processing Bloomberg SESSION_STATUS event
+2021-05-25 17:33:48 [logger INFO] Bloomberg Session started...
+2021-05-25 17:33:48 [logger INFO] Initializing Generic Market Order Router
+2021-05-25 17:33:48 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-05-25 17:33:48 [logger INFO] Generic Market Order Router Initialized
+2021-05-25 17:33:48 [logger INFO] SignalTracker  Initializing
+2021-05-25 17:33:48 [logger INFO] Starting Trading Signal Scrapping
+2021-05-25 17:33:48 [logger INFO] Opening Chrome window
+2021-05-25 17:33:48 [logger INFO] Re transmitting previously sent trading signals
+2021-05-25 17:33:48 [logger INFO] SignalTracker Successfully initialized
+2021-05-25 17:33:49 [logger INFO] Processing SERVICE_STATUS event
+2021-05-25 17:33:49 [logger INFO] Service //blp/emapisvc opened...
+2021-05-25 17:33:50 [logger INFO] DayTrader Successfully initialized
+2021-05-25 17:33:55 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:CAPCHA_NOT_READY
+2021-05-25 17:34:07 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:CAPCHA_NOT_READY
+2021-05-25 17:34:28 [logger INFO] Searching for trading signals
+2021-05-25 17:34:34 [logger INFO] Creating Sell Signal: SELL SIGNAL RH $631.88 at 2021-05-25 09:46:00
+2021-05-25 17:34:34 [logger INFO] Creating Sell Signal: SELL SIGNAL XLE $52.58 at 2021-05-25 09:43:00
+2021-05-25 17:34:34 [logger INFO] Received trading signal for Symbol RH date 2021-05-25 09:46:00 side Side.Sell and price 631.88
+2021-05-25 17:34:34 [logger INFO] RH_SELL-Looking for potential positions (from input file)
+2021-05-25 17:34:34 [logger INFO] RH_SELL-Found 0 potential positions
+2021-05-25 17:34:34 [logger INFO] Received trading signal for Symbol XLE date 2021-05-25 09:43:00 side Side.Sell and price 52.58
+2021-05-25 17:34:34 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING BYND $118.91 at 2021-05-24 03:06:00
+2021-05-25 17:34:34 [logger INFO] XLE_SELL-Looking for potential positions (from input file)
+2021-05-25 17:34:34 [logger INFO] Creating Sell Signal: SELL SIGNAL SBUX $112.65 at 2021-05-24 02:55:00
+2021-05-25 17:34:34 [logger INFO] Received trading signal for Symbol BYND date 2021-05-24 03:06:00 side Side.Sell and price 118.91
+2021-05-25 17:34:34 [logger INFO] XLE_SELL-Found 0 potential positions
+2021-05-25 17:34:34 [logger INFO] Discarding old trading signal for Symbol BYND date 2021-05-24 03:06:00 side Side.Sell and price 118.91
+2021-05-25 17:34:34 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT FXI $45.17 at <class 'datetime.date'>
+2021-05-25 17:34:34 [logger INFO] Received trading signal for Symbol SBUX date 2021-05-24 02:55:00 side Side.Sell and price 112.65
+2021-05-25 17:34:35 [logger INFO] Creating Sell Signal: SELL SIGNAL IHRT $22.92 at 2021-05-24 01:03:00
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol SBUX date 2021-05-24 02:55:00 side Side.Sell and price 112.65
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol IHRT date 2021-05-24 01:03:00 side Side.Sell and price 22.92
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol FXI date 2021-05-24 01:05:00 side Side.Buy and price 45.17
+2021-05-25 17:34:35 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT NFLX $500.94 at <class 'datetime.date'>
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol IHRT date 2021-05-24 01:03:00 side Side.Sell and price 22.92
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol FXI date 2021-05-24 01:05:00 side Side.Buy and price 45.17
+2021-05-25 17:34:35 [logger INFO] Creating Sell Signal: SELL SIGNAL XLF $37.75 at 2021-05-24 12:54:00
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol NFLX date 2021-05-24 01:00:00 side Side.Buy and price 500.94
+2021-05-25 17:34:35 [logger INFO] Creating Buy Signal: BUY SIGNAL CTRN $89.48 at <class 'datetime.date'>
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol NFLX date 2021-05-24 01:00:00 side Side.Buy and price 500.94
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol XLF date 2021-05-24 12:54:00 side Side.Sell and price 37.75
+2021-05-25 17:34:35 [logger INFO] Creating Buy Signal: BUY SIGNAL TMKRU $10.01 at <class 'datetime.date'>
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol CTRN date 2021-05-21 11:58:00 side Side.Buy and price 89.48
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol XLF date 2021-05-24 12:54:00 side Side.Sell and price 37.75
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol CTRN date 2021-05-21 11:58:00 side Side.Buy and price 89.48
+2021-05-25 17:34:35 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT EQC $27.50 at <class 'datetime.date'>
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol TMKRU date 2021-05-21 10:13:00 side Side.Buy and price 10.01
+2021-05-25 17:34:35 [logger INFO] Creating Sell Signal: SELL SIGNAL BNO $16.99 at 2021-05-21 10:02:00
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol TMKRU date 2021-05-21 10:13:00 side Side.Buy and price 10.01
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol EQC date 2021-05-21 10:04:00 side Side.Buy and price 27.5
+2021-05-25 17:34:35 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING TLT $137.45 at 2021-05-21 09:47:00
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol BNO date 2021-05-21 10:02:00 side Side.Sell and price 16.99
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol EQC date 2021-05-21 10:04:00 side Side.Buy and price 27.5
+2021-05-25 17:34:35 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING PINS $61.02 at 2021-05-20 03:37:00
+2021-05-25 17:34:35 [logger INFO] Received trading signal for Symbol TLT date 2021-05-21 09:47:00 side Side.Sell and price 137.45
+2021-05-25 17:34:35 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-21 10:02:00 side Side.Sell and price 16.99
+2021-05-25 17:34:36 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING NFLX $501.87 at 2021-05-20 03:33:00
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol PINS date 2021-05-20 03:37:00 side Side.Sell and price 61.02
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol TLT date 2021-05-21 09:47:00 side Side.Sell and price 137.45
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol PINS date 2021-05-20 03:37:00 side Side.Sell and price 61.02
+2021-05-25 17:34:36 [logger INFO] Creating Buy Signal: BUY SIGNAL AWI $102.75 at <class 'datetime.date'>
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol NFLX date 2021-05-20 03:33:00 side Side.Sell and price 501.87
+2021-05-25 17:34:36 [logger INFO] Creating Sell Signal: SELL SIGNAL BSPE $10.13 at 2021-05-20 03:19:00
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol NFLX date 2021-05-20 03:33:00 side Side.Sell and price 501.87
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol AWI date 2021-05-20 03:26:00 side Side.Buy and price 102.75
+2021-05-25 17:34:36 [logger INFO] Creating Sell Signal: SELL SIGNAL BLDE $8.61 at 2021-05-20 03:16:00
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol BSPE date 2021-05-20 03:19:00 side Side.Sell and price 10.13
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol AWI date 2021-05-20 03:26:00 side Side.Buy and price 102.75
+2021-05-25 17:34:36 [logger INFO] Creating Buy Signal: BUY SIGNAL IHRT $22.01 at <class 'datetime.date'>
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol BSPE date 2021-05-20 03:19:00 side Side.Sell and price 10.13
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol BLDE date 2021-05-20 03:16:00 side Side.Sell and price 8.61
+2021-05-25 17:34:36 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING FXI $45.52 at 2021-05-20 10:26:00
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol IHRT date 2021-05-20 10:30:00 side Side.Buy and price 22.01
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol BLDE date 2021-05-20 03:16:00 side Side.Sell and price 8.61
+2021-05-25 17:34:36 [logger INFO] Creating Buy Signal: BUY SIGNAL BNO $16.84 at <class 'datetime.date'>
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol IHRT date 2021-05-20 10:30:00 side Side.Buy and price 22.01
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol FXI date 2021-05-20 10:26:00 side Side.Sell and price 45.52
+2021-05-25 17:34:36 [logger INFO] Creating Buy Signal: BUY SIGNAL NTRA $87.80 at <class 'datetime.date'>
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol BNO date 2021-05-20 10:21:00 side Side.Buy and price 16.84
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol FXI date 2021-05-20 10:26:00 side Side.Sell and price 45.52
+2021-05-25 17:34:36 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT NKLA $12.64 at <class 'datetime.date'>
+2021-05-25 17:34:36 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-20 10:21:00 side Side.Buy and price 16.84
+2021-05-25 17:34:36 [logger INFO] Received trading signal for Symbol NTRA date 2021-05-20 10:14:00 side Side.Buy and price 87.8
+2021-05-25 17:34:37 [logger INFO] Creating Sell Signal: SELL SIGNAL FFNTF $1.31 at 2021-05-20 10:08:00
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol NKLA date 2021-05-20 10:10:00 side Side.Buy and price 12.64
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol NTRA date 2021-05-20 10:14:00 side Side.Buy and price 87.8
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol NKLA date 2021-05-20 10:10:00 side Side.Buy and price 12.64
+2021-05-25 17:34:37 [logger INFO] Creating Buy Signal: BUY SIGNAL XLE $51.52 at <class 'datetime.date'>
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol FFNTF date 2021-05-20 10:08:00 side Side.Sell and price 1.31
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol FFNTF date 2021-05-20 10:08:00 side Side.Sell and price 1.31
+2021-05-25 17:34:37 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING FROG $38.46 at 2021-05-19 02:14:00
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol XLE date 2021-05-20 10:01:00 side Side.Buy and price 51.52
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol XLE date 2021-05-20 10:01:00 side Side.Buy and price 51.52
+2021-05-25 17:34:37 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT FUBO $20.28 at <class 'datetime.date'>
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol FROG date 2021-05-19 02:14:00 side Side.Sell and price 38.46
+2021-05-25 17:34:37 [logger INFO] Creating Sell Signal: SELL SIGNAL BCO $78.64 at 2021-05-19 02:09:00
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol FROG date 2021-05-19 02:14:00 side Side.Sell and price 38.46
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol FUBO date 2021-05-19 02:11:00 side Side.Buy and price 20.28
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol FUBO date 2021-05-19 02:11:00 side Side.Buy and price 20.28
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol BCO date 2021-05-19 02:09:00 side Side.Sell and price 78.64
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol BCO date 2021-05-19 02:09:00 side Side.Sell and price 78.64
+2021-05-25 17:34:37 [logger INFO] Creating Buy Signal: BUY SIGNAL BCO $76.78 at <class 'datetime.date'>
+2021-05-25 17:34:37 [logger INFO] Creating Buy Signal: BUY SIGNAL XLF $36.63 at <class 'datetime.date'>
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol BCO date 2021-05-19 10:19:00 side Side.Buy and price 76.78
+2021-05-25 17:34:37 [logger INFO] Creating Buy Signal: BUY SIGNAL CPER $28.09 at <class 'datetime.date'>
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol BCO date 2021-05-19 10:19:00 side Side.Buy and price 76.78
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol XLF date 2021-05-19 10:12:00 side Side.Buy and price 36.63
+2021-05-25 17:34:37 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING PLUG $27.29 at 2021-05-18 03:17:00
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol CPER date 2021-05-19 10:04:00 side Side.Buy and price 28.09
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol XLF date 2021-05-19 10:12:00 side Side.Buy and price 36.63
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol CPER date 2021-05-19 10:04:00 side Side.Buy and price 28.09
+2021-05-25 17:34:37 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING EQC $27.43 at 2021-05-18 10:21:00
+2021-05-25 17:34:37 [logger INFO] Received trading signal for Symbol PLUG date 2021-05-18 03:17:00 side Side.Sell and price 27.29
+2021-05-25 17:34:37 [logger INFO] Discarding old trading signal for Symbol PLUG date 2021-05-18 03:17:00 side Side.Sell and price 27.29
+2021-05-25 17:34:37 [logger INFO] Creating Sell Signal: SELL SIGNAL OUST $9.89 at 2021-05-18 10:09:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol EQC date 2021-05-18 10:21:00 side Side.Sell and price 27.43
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol EQC date 2021-05-18 10:21:00 side Side.Sell and price 27.43
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL DUFRY $6.16 at 2021-05-18 10:07:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol OUST date 2021-05-18 10:09:00 side Side.Sell and price 9.89
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL MUDS $13.36 at 2021-05-18 10:04:00
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol OUST date 2021-05-18 10:09:00 side Side.Sell and price 9.89
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol DUFRY date 2021-05-18 10:07:00 side Side.Sell and price 6.16
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING GLD $174.84 at 2021-05-18 09:50:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol MUDS date 2021-05-18 10:04:00 side Side.Sell and price 13.36
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol DUFRY date 2021-05-18 10:07:00 side Side.Sell and price 6.16
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol MUDS date 2021-05-18 10:04:00 side Side.Sell and price 13.36
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol GLD date 2021-05-18 09:50:00 side Side.Sell and price 174.84
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING FUBO $20.37 at 2021-05-17 03:52:00
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol GLD date 2021-05-18 09:50:00 side Side.Sell and price 174.84
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING PLUG $24.92 at 2021-05-17 03:50:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol FUBO date 2021-05-17 03:52:00 side Side.Sell and price 20.37
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol FUBO date 2021-05-17 03:52:00 side Side.Sell and price 20.37
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING SFIX $44.00 at 2021-05-17 03:48:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol PLUG date 2021-05-17 03:50:00 side Side.Sell and price 24.92
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol PLUG date 2021-05-17 03:50:00 side Side.Sell and price 24.92
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL GDRX $30.43 at 2021-05-17 03:20:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol SFIX date 2021-05-17 03:48:00 side Side.Sell and price 44.0
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL CTRN $99.58 at 2021-05-17 03:18:00
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol GDRX date 2021-05-17 03:20:00 side Side.Sell and price 30.43
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol SFIX date 2021-05-17 03:48:00 side Side.Sell and price 44.0
+2021-05-25 17:34:38 [logger INFO] Received trading signal for Symbol CTRN date 2021-05-17 03:18:00 side Side.Sell and price 99.58
+2021-05-25 17:34:38 [logger INFO] Creating Sell Signal: SELL SIGNAL PENN $80.56 at 2021-05-17 03:14:00
+2021-05-25 17:34:38 [logger INFO] Discarding old trading signal for Symbol GDRX date 2021-05-17 03:20:00 side Side.Sell and price 30.43
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol CTRN date 2021-05-17 03:18:00 side Side.Sell and price 99.58
+2021-05-25 17:34:39 [logger INFO] Creating Buy Signal: BUY SIGNAL - COVERING SHORT DASH $133.46 at <class 'datetime.date'>
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol PENN date 2021-05-17 03:14:00 side Side.Sell and price 80.56
+2021-05-25 17:34:39 [logger INFO] Creating Sell Signal: SELL SIGNAL HYG $87.08 at 2021-05-17 03:06:00
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol PENN date 2021-05-17 03:14:00 side Side.Sell and price 80.56
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol DASH date 2021-05-17 03:12:00 side Side.Buy and price 133.46
+2021-05-25 17:34:39 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING DASH $140.43 at 2021-05-14 03:06:00
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol HYG date 2021-05-17 03:06:00 side Side.Sell and price 87.08
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol DASH date 2021-05-17 03:12:00 side Side.Buy and price 133.46
+2021-05-25 17:34:39 [logger INFO] Creating Buy Signal: BUY SIGNAL FFNTF $1.24 at <class 'datetime.date'>
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol HYG date 2021-05-17 03:06:00 side Side.Sell and price 87.08
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol DASH date 2021-05-14 03:06:00 side Side.Sell and price 140.43
+2021-05-25 17:34:39 [logger INFO] Creating Sell Signal: SELL SIGNAL BYD $62.37 at 2021-05-14 02:57:00
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol FFNTF date 2021-05-14 03:02:00 side Side.Buy and price 1.24
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol DASH date 2021-05-14 03:06:00 side Side.Sell and price 140.43
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol FFNTF date 2021-05-14 03:02:00 side Side.Buy and price 1.24
+2021-05-25 17:34:39 [logger INFO] Creating Sell Signal: SELL SIGNAL PLCE $74.88 at 2021-05-14 10:42:00
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol BYD date 2021-05-14 02:57:00 side Side.Sell and price 62.37
+2021-05-25 17:34:39 [logger INFO] Creating Sell Signal: SELL SIGNAL BNO $17.36 at 2021-05-14 10:39:00
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol BYD date 2021-05-14 02:57:00 side Side.Sell and price 62.37
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol PLCE date 2021-05-14 10:42:00 side Side.Sell and price 74.88
+2021-05-25 17:34:39 [logger INFO] Creating Sell Signal: SELL SIGNAL XRT $92.21 at 2021-05-14 10:35:00
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol BNO date 2021-05-14 10:39:00 side Side.Sell and price 17.36
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol PLCE date 2021-05-14 10:42:00 side Side.Sell and price 74.88
+2021-05-25 17:34:39 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-14 10:39:00 side Side.Sell and price 17.36
+2021-05-25 17:34:39 [logger INFO] Received trading signal for Symbol XRT date 2021-05-14 10:35:00 side Side.Sell and price 92.21
+2021-05-25 17:34:39 [logger INFO] Creating Buy Signal: BUY SIGNAL PENN $75.91 at <class 'datetime.date'>
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol XRT date 2021-05-14 10:35:00 side Side.Sell and price 92.21
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol PENN date 2021-05-13 03:26:00 side Side.Buy and price 75.91
+2021-05-25 17:34:40 [logger INFO] Creating Buy Signal: BUY SIGNAL BNO $17.02 at <class 'datetime.date'>
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol PENN date 2021-05-13 03:26:00 side Side.Buy and price 75.91
+2021-05-25 17:34:40 [logger INFO] Creating Sell Signal: SELL SIGNAL V $224.40 at 2021-05-13 03:15:00
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol BNO date 2021-05-13 03:20:00 side Side.Buy and price 17.02
+2021-05-25 17:34:40 [logger INFO] Creating Sell Signal: SELL SIGNAL PSA $275.16 at 2021-05-13 03:13:00
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol V date 2021-05-13 03:15:00 side Side.Sell and price 224.4
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol BNO date 2021-05-13 03:20:00 side Side.Buy and price 17.02
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol V date 2021-05-13 03:15:00 side Side.Sell and price 224.4
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol PSA date 2021-05-13 03:13:00 side Side.Sell and price 275.16
+2021-05-25 17:34:40 [logger INFO] Creating Buy Signal: BUY SIGNAL PLCE $71.72 at <class 'datetime.date'>
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol PSA date 2021-05-13 03:13:00 side Side.Sell and price 275.16
+2021-05-25 17:34:40 [logger INFO] Creating Buy Signal: BUY SIGNAL RH $635.99 at <class 'datetime.date'>
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol PLCE date 2021-05-13 03:10:00 side Side.Buy and price 71.72
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol RH date 2021-05-13 10:18:00 side Side.Buy and price 635.99
+2021-05-25 17:34:40 [logger INFO] Creating Buy Signal: BUY SIGNAL BYD $59.96 at <class 'datetime.date'>
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol PLCE date 2021-05-13 03:10:00 side Side.Buy and price 71.72
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol RH date 2021-05-13 10:18:00 side Side.Buy and price 635.99
+2021-05-25 17:34:40 [logger INFO] Creating Sell Signal: SELL SIGNAL - SHORTING NKLA $12.52 at 2021-05-13 10:06:00
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol BYD date 2021-05-13 10:09:00 side Side.Buy and price 59.96
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol BYD date 2021-05-13 10:09:00 side Side.Buy and price 59.96
+2021-05-25 17:34:40 [logger INFO] Creating Sell Signal: SELL SIGNAL POAHY $10.73 at 2021-05-25 09:50:00
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol NKLA date 2021-05-13 10:06:00 side Side.Sell and price 12.52
+2021-05-25 17:34:40 [logger INFO] Discarding old trading signal for Symbol NKLA date 2021-05-13 10:06:00 side Side.Sell and price 12.52
+2021-05-25 17:34:40 [logger INFO] Received trading signal for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:34:40 [logger INFO] POAHY_SELL-Looking for potential positions (from input file)
+2021-05-25 17:34:40 [logger INFO] POAHY_SELL-Found 1 potential positions
+2021-05-25 17:34:40 [logger INFO] Routing position for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:34:40 [logger INFO] All signals processed
+2021-05-25 17:34:41 [logger INFO] Placing Order On Market: ClOrdId 97f41db6-2219-417b-a089-b9210613c183 Symbol POAHY secType None orderType OrdType.Limit totalQty 10 
+2021-05-25 17:34:41 [logger INFO] Managed Position Updated: Arrival=2021-05-25 17:34:41.298069 TradeId=trd__POAHY_1621974881282 PosId=97f41db6-2219-417b-a089-b9210613c183 Symbol=POAHY Side=Side.Sell Final Status=PositionStatus.New OrdQty=10 CumQty=0 LvsQty=10 AvgPx=None Text=Fake New Order 
+2021-05-25 17:34:41 [logger INFO] Persisting position for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:34:41 [logger INFO] POAHY_SELL-Trading signal successfully routed for symbol POAHY and side Side.Sell at 10.73 
+2021-05-25 17:34:43 [logger INFO] Managed Position Finished: Arrival=2021-05-25 17:34:43.351115 TradeId=trd__POAHY_1621974881282 PosId=97f41db6-2219-417b-a089-b9210613c183 Symbol=POAHY Side=Side.Sell Final Status=PositionStatus.Filled OrdQty=10 CumQty=10 LvsQty=0 AvgPx=10.73 Text=Fake Filled Order 
+2021-05-25 17:36:43 [logger INFO] Searching for trading signals
+2021-05-25 17:36:49 [logger INFO] All signals processed
+2021-05-25 17:37:49 [logger INFO] Re transmitting previously sent trading signals
+2021-05-25 17:37:49 [logger INFO] Re transmitting trading signal for symbol RH (id=RH_2021-05-25_SELL)
+2021-05-25 17:37:49 [logger INFO] Received trading signal for Symbol RH date 2021-05-25 09:46:00 side Side.Sell and price 631.88
+2021-05-25 17:37:49 [logger INFO] Re transmitting trading signal for symbol XLE (id=XLE_2021-05-25_SELL)
+2021-05-25 17:37:49 [logger INFO] RH_SELL-Looking for potential positions (from input file)
+2021-05-25 17:37:49 [logger INFO] RH_SELL-Found 0 potential positions
+2021-05-25 17:37:49 [logger INFO] Received trading signal for Symbol XLE date 2021-05-25 09:43:00 side Side.Sell and price 52.58
+2021-05-25 17:37:49 [logger INFO] Re transmitting trading signal for symbol POAHY (id=POAHY_2021-05-25_SELL)
+2021-05-25 17:37:49 [logger INFO] XLE_SELL-Looking for potential positions (from input file)
+2021-05-25 17:37:49 [logger INFO] XLE_SELL-Found 0 potential positions
+2021-05-25 17:37:49 [logger INFO] Received trading signal for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:37:49 [logger INFO] POAHY_SELL-Looking for potential positions (from input file)
+2021-05-25 17:37:49 [logger INFO] POAHY_SELL-Found 1 potential positions
+2021-05-25 17:37:49 [logger ERROR] Discarding Trading Signal because it has already been routed: symbol=POAHY Side=Side.Sell Date=2021-05-25 09:50:00
+2021-05-25 17:38:51 [logger INFO] Searching for trading signals
+2021-05-25 17:38:56 [logger INFO] All signals processed
+2021-05-25 17:40:59 [logger INFO] Searching for trading signals
+2021-05-25 17:41:05 [logger INFO] All signals processed
+2021-05-25 17:41:49 [logger INFO] Re transmitting previously sent trading signals
+2021-05-25 17:41:49 [logger INFO] Re transmitting trading signal for symbol RH (id=RH_2021-05-25_SELL)
+2021-05-25 17:41:49 [logger INFO] Received trading signal for Symbol RH date 2021-05-25 09:46:00 side Side.Sell and price 631.88
+2021-05-25 17:41:49 [logger INFO] RH_SELL-Looking for potential positions (from input file)
+2021-05-25 17:41:49 [logger INFO] RH_SELL-Found 0 potential positions
+2021-05-25 17:41:49 [logger INFO] Re transmitting trading signal for symbol XLE (id=XLE_2021-05-25_SELL)
+2021-05-25 17:41:49 [logger INFO] Received trading signal for Symbol XLE date 2021-05-25 09:43:00 side Side.Sell and price 52.58
+2021-05-25 17:41:49 [logger INFO] XLE_SELL-Looking for potential positions (from input file)
+2021-05-25 17:41:49 [logger INFO] XLE_SELL-Found 0 potential positions
+2021-05-25 17:41:49 [logger INFO] Re transmitting trading signal for symbol POAHY (id=POAHY_2021-05-25_SELL)
+2021-05-25 17:41:49 [logger INFO] Received trading signal for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:41:49 [logger INFO] POAHY_SELL-Looking for potential positions (from input file)
+2021-05-25 17:41:49 [logger INFO] POAHY_SELL-Found 1 potential positions
+2021-05-25 17:41:49 [logger ERROR] Discarding Trading Signal because it has already been routed: symbol=POAHY Side=Side.Sell Date=2021-05-25 09:50:00
+2021-05-25 17:43:08 [logger INFO] Searching for trading signals
+2021-05-25 17:43:13 [logger INFO] All signals processed
+2021-05-25 17:45:16 [logger INFO] Searching for trading signals
+2021-05-25 17:45:21 [logger INFO] All signals processed
+2021-05-25 17:45:49 [logger INFO] Re transmitting previously sent trading signals
+2021-05-25 17:45:49 [logger INFO] Re transmitting trading signal for symbol RH (id=RH_2021-05-25_SELL)
+2021-05-25 17:45:49 [logger INFO] Received trading signal for Symbol RH date 2021-05-25 09:46:00 side Side.Sell and price 631.88
+2021-05-25 17:45:49 [logger INFO] Re transmitting trading signal for symbol XLE (id=XLE_2021-05-25_SELL)
+2021-05-25 17:45:49 [logger INFO] RH_SELL-Looking for potential positions (from input file)
+2021-05-25 17:45:49 [logger INFO] Received trading signal for Symbol XLE date 2021-05-25 09:43:00 side Side.Sell and price 52.58
+2021-05-25 17:45:49 [logger INFO] Re transmitting trading signal for symbol POAHY (id=POAHY_2021-05-25_SELL)
+2021-05-25 17:45:49 [logger INFO] RH_SELL-Found 0 potential positions
+2021-05-25 17:45:49 [logger INFO] XLE_SELL-Looking for potential positions (from input file)
+2021-05-25 17:45:49 [logger INFO] Received trading signal for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:45:49 [logger INFO] XLE_SELL-Found 0 potential positions
+2021-05-25 17:45:49 [logger INFO] POAHY_SELL-Looking for potential positions (from input file)
+2021-05-25 17:45:49 [logger INFO] POAHY_SELL-Found 1 potential positions
+2021-05-25 17:45:49 [logger ERROR] Discarding Trading Signal because it has already been routed: symbol=POAHY Side=Side.Sell Date=2021-05-25 09:50:00
+2021-05-25 17:47:24 [logger INFO] Searching for trading signals
+2021-05-25 17:47:29 [logger INFO] All signals processed
+2021-05-25 17:49:31 [logger INFO] Searching for trading signals
+2021-05-25 17:49:37 [logger INFO] All signals processed
+2021-05-25 17:49:49 [logger INFO] Re transmitting previously sent trading signals
+2021-05-25 17:49:49 [logger INFO] Re transmitting trading signal for symbol RH (id=RH_2021-05-25_SELL)
+2021-05-25 17:49:49 [logger INFO] Received trading signal for Symbol RH date 2021-05-25 09:46:00 side Side.Sell and price 631.88
+2021-05-25 17:49:49 [logger INFO] Re transmitting trading signal for symbol XLE (id=XLE_2021-05-25_SELL)
+2021-05-25 17:49:49 [logger INFO] RH_SELL-Looking for potential positions (from input file)
+2021-05-25 17:49:49 [logger INFO] Received trading signal for Symbol XLE date 2021-05-25 09:43:00 side Side.Sell and price 52.58
+2021-05-25 17:49:49 [logger INFO] RH_SELL-Found 0 potential positions
+2021-05-25 17:49:49 [logger INFO] Re transmitting trading signal for symbol POAHY (id=POAHY_2021-05-25_SELL)
+2021-05-25 17:49:49 [logger INFO] XLE_SELL-Looking for potential positions (from input file)
+2021-05-25 17:49:49 [logger INFO] Received trading signal for Symbol POAHY date 2021-05-25 09:50:00 side Side.Sell and price 10.73
+2021-05-25 17:49:49 [logger INFO] XLE_SELL-Found 0 potential positions
+2021-05-25 17:49:49 [logger INFO] POAHY_SELL-Looking for potential positions (from input file)
+2021-05-25 17:49:49 [logger INFO] POAHY_SELL-Found 1 potential positions
+2021-05-25 17:49:49 [logger ERROR] Discarding Trading Signal because it has already been routed: symbol=POAHY Side=Side.Sell Date=2021-05-25 09:50:00
