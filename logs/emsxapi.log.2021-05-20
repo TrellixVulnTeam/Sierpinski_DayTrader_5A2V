@@ -1,0 +1,36 @@
+2021-05-20 19:47:11 [logger INFO] DayTrader  Initializing
+2021-05-20 19:47:12 [logger INFO] FileHandlerModule  Initializing
+2021-05-20 19:47:12 [logger INFO] FileHandlerModule Successfully initialized
+2021-05-20 19:47:12 [logger INFO] Initializing Bloomberg Order Router
+2021-05-20 19:47:12 [logger INFO] Working offline - Mock implemented
+2021-05-20 19:47:12 [logger INFO] Bloomberg Order Router Initialized
+2021-05-20 19:47:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-05-20 19:47:12 [logger INFO] Initializing Generic Market Order Router
+2021-05-20 19:47:12 [logger INFO] SingletonModuleHandler Successfully initializer
+2021-05-20 19:47:12 [logger INFO] Generic Market Order Router Initialized
+2021-05-20 19:47:12 [logger INFO] SignalTracker  Initializing
+2021-05-20 19:47:12 [logger INFO] Starting Trading Signal Scrapping
+2021-05-20 19:47:12 [logger INFO] Opening Chrome window
+2021-05-20 19:47:12 [logger INFO] Re transmitting previously sent trading signals
+2021-05-20 19:47:12 [logger INFO] SignalTracker Successfully initialized
+2021-05-20 19:47:14 [logger INFO] DayTrader Successfully initialized
+2021-05-20 19:47:16 [logger ERROR] Could not recover 2Captcha Request Id:Error recovering 2Captcha request id:ERROR_ZERO_BALANCE
+2021-05-20 19:47:19 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:47:31 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:47:44 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:47:56 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:48:09 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:48:21 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:48:33 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:48:46 [logger ERROR] Could not recover the captcha token in the attempt #8:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:48:59 [logger ERROR] Could not recover the captcha token in the attempt #9:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:49:11 [logger ERROR] Could not recover the captcha token in the attempt #10:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:49:11 [logger ERROR] More than 10 unsuccessful attempts. Restarting Login process.
+2021-05-20 19:49:12 [logger ERROR] Could not recover 2Captcha Request Id:Error recovering 2Captcha request id:ERROR_ZERO_BALANCE
+2021-05-20 19:49:15 [logger ERROR] Could not recover the captcha token in the attempt #1:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:49:27 [logger ERROR] Could not recover the captcha token in the attempt #2:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:49:40 [logger ERROR] Could not recover the captcha token in the attempt #3:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:49:52 [logger ERROR] Could not recover the captcha token in the attempt #4:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:50:05 [logger ERROR] Could not recover the captcha token in the attempt #5:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:50:17 [logger ERROR] Could not recover the captcha token in the attempt #6:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID
+2021-05-20 19:50:30 [logger ERROR] Could not recover the captcha token in the attempt #7:Error recovering capcha token:ERROR_WRONG_CAPTCHA_ID

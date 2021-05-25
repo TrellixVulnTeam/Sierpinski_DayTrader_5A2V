@@ -8,6 +8,7 @@ from sources.order_routers.bloomberg.common.wrappers.historical_prices_wrapper i
 from sources.framework.common.wrappers.market_data_wrapper import *
 from sources.vendor_data.hedge_eye.common.configuration.configuration import *
 from sources.vendor_data.hedge_eye.common.dto.trading_signal_dto import *
+from sources.vendor_data.hedge_eye.common.dto.trading_tag_dto import TradingTagDto
 from sources.vendor_data.hedge_eye.common.wrappers.trading_signal_wrapper import *
 from sources.vendor_data.hedge_eye.data_access_layer.two_captcha_manager import *
 from sources.vendor_data.hedge_eye.data_access_layer.hedge_eye_user_manager import *
@@ -233,6 +234,36 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                 user.LastLoginTime=datetime.datetime.now()
                 self.HedgeEyeUserManager.PersistHedgeEyeUser(user)
 
+    def GetTradingSignals(self,driver):
+        #rows = driver.find_elements_by_xpath("//div[contains(@class,'col-sm-12 ext-list-article')]")
+
+        #H2 Trading signals
+        dateStrH2 = driver.find_elements_by_xpath("//p[contains(@class,'article__meta__date')]")
+        titleStrH2 = driver.find_elements_by_xpath("//h2[contains(@class,'article__title')]")
+
+        #H1 trading signals --> header!
+        dateStrH1 = driver.find_elements_by_xpath("//time[contains(@class,'article__time')]//span[2]")
+        titleStrH1 = driver.find_elements_by_xpath("//h1[contains(@class,'article__header')]")
+
+
+        tradingTagDTOs=[]
+
+        for i, title in enumerate(titleStrH2):
+            title = str(titleStrH2[i].text)
+            date = datetime.datetime.strptime(dateStrH2[i].text, self.Configuration.DateTimeFormat)
+
+            dto=TradingTagDto(title,date)
+            tradingTagDTOs.append(dto)
+
+        for i, title in enumerate(titleStrH1):
+            title = str(titleStrH1[i].text)
+            date = datetime.datetime.strptime(dateStrH1[i].text, self.Configuration.DateTimeFormat)
+
+            dto = TradingTagDto(title, date)
+            tradingTagDTOs.append(dto)
+
+        return tradingTagDTOs
+
     def TrackForSignals(self):
 
         signalsFound=[]
@@ -258,31 +289,34 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                         break
                 self.DoLog("Searching for trading signals".format(datetime.datetime.now()), MessageType.INFO)
 
-                rows = driver.find_elements_by_xpath("//div[contains(@class,'col-sm-12 ext-list-article')]")
-                dateStr = driver.find_elements_by_xpath("//p[contains(@class,'article__meta__date')]")
-                titleStr = driver.find_elements_by_xpath("//h2[contains(@class,'article__title')]")
+                signalTags= self.GetTradingSignals(driver)
+
+                #rows = driver.find_elements_by_xpath("//div[contains(@class,'col-sm-12 ext-list-article')]")
+                #dateStr = driver.find_elements_by_xpath("//p[contains(@class,'article__meta__date')]")
+                #titleStr = driver.find_elements_by_xpath("//h2[contains(@class,'article__title')]")
 
                 self.PublishLock.acquire(blocking=True)
 
-                for i,title in enumerate(titleStr):
+                for signalTag in signalTags:
+                #for i,title in enumerate(titleStr):
 
-                    title=str(titleStr[i].text)
-                    date = datetime.datetime.strptime(dateStr[i].text, self.Configuration.DateTimeFormat)
+                    #title=str(titleStr[i].text)
+                    #date = datetime.datetime.strptime(dateStr[i].text, self.Configuration.DateTimeFormat)
 
-                    if title in signalsFound:
+                    if signalTag.title in signalsFound:
                         break
-                    elif title.startswith(_BUY_SIGNAL_PREFIX) or title.startswith(_BUY_SIGNAL_COVERING_PREFIX):
-                        self.DoLog("Creating Buy Signal: {} at {}".format(title,date),MessageType.INFO)
-                        signalsFound.append(title)
-                        threading.Thread(target=self.CreateTradingSignal, args=(date,Side.Buy,title)).start()
+                    elif signalTag.title.startswith(_BUY_SIGNAL_PREFIX) or signalTag.title.startswith(_BUY_SIGNAL_COVERING_PREFIX):
+                        self.DoLog("Creating Buy Signal: {} at {}".format(signalTag.title,date),MessageType.INFO)
+                        signalsFound.append(signalTag.title)
+                        threading.Thread(target=self.CreateTradingSignal, args=(signalTag.date,Side.Buy,signalTag.title)).start()
 
-                    elif title.startswith(_SELL_SIGNAL_PREFIX) or title.startswith(_SELL_SIGNAL_SHORTING_PREFIX):
-                        self.DoLog("Creating Sell Signal: {} at {}".format(title,date),MessageType.INFO)
-                        signalsFound.append(title)
-                        threading.Thread(target=self.CreateTradingSignal, args=(date,Side.Sell,title)).start()
-                    elif title not in articles:
-                        self.DoLog("Discarding regular article: {}".format(title.encode("utf-8")),MessageType.INFO)
-                        articles.append(title.encode("utf-8"))
+                    elif signalTag.title.startswith(_SELL_SIGNAL_PREFIX) or signalTag.title.startswith(_SELL_SIGNAL_SHORTING_PREFIX):
+                        self.DoLog("Creating Sell Signal: {} at {}".format(signalTag.title,signalTag.date),MessageType.INFO)
+                        signalsFound.append(signalTag.title)
+                        threading.Thread(target=self.CreateTradingSignal, args=(signalTag.date,Side.Sell,signalTag.title)).start()
+                    elif signalTag.title not in articles:
+                        self.DoLog("Discarding regular article: {}".format(signalTag.title.encode("utf-8")),MessageType.INFO)
+                        articles.append(signalTag.title.encode("utf-8"))
 
                 self.DoLog("All signals processed".format(datetime.datetime.now()),MessageType.INFO)
             except Exception as e:
