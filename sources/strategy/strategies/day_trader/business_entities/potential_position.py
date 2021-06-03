@@ -1,5 +1,6 @@
 from sources.framework.business_entities.securities.security import *
 from sources.framework.business_entities.market_data.candle_bar import *
+from sources.framework.common.enums.OrdType import OrdType
 from sources.framework.common.enums.Side import *
 from sources.framework.common.enums.PositionsStatus import PositionStatus
 
@@ -15,6 +16,16 @@ _BUY="BUY"
 _SELL="SELL"
 _UNK="UNKNOWN"
 
+_ROUTING_BUY="B"
+_ROUTING_SELL="S"
+_ROUTING_BUY_COVER="BC"
+_ROUTING_SELL_SHORT="SS"
+
+_ORD_TYPE_MKT="MKT"
+_ORD_TYPE_LMT="LMT"
+_ORD_TYPE_ALERT="ALERT"
+
+
 #endregion
 
 
@@ -22,7 +33,7 @@ class PotentialPosition():
 
     #region Constructor
 
-    def __init__(self,id,security,size,side,broker=None,strategy=None):
+    def __init__(self,id,security,size,side,broker=None,strategy=None,ordType=None,price=None):
 
         self.Id = id
         self.Security = security
@@ -32,6 +43,8 @@ class PotentialPosition():
 
         self.Size=size
         self.Side = side
+        self.OrdType=ordType
+        self.Price=price
 
         self.Broker=broker
         self.Strategy=strategy
@@ -129,6 +142,46 @@ class PotentialPosition():
         nextOpenPos = next(iter(list(filter(lambda x: x.Position.IsOpenPosition(), self.ExecutionSummaries.values()))),
                            None)
         self.Routing = nextOpenPos is not None
+
+    #endregion
+
+
+    #region Public Methods
+
+    def GetRoutingSide(self):
+        return self.Side
+        # if self.Side==_ROUTING_BUY:
+        #     return Side.Buy
+        # elif self.Side==_ROUTING_SELL:
+        #     return Side.Sell
+        # elif self.Side==_ROUTING_SELL_SHORT:
+        #     return Side.SellShort
+        # elif self.Side==_ROUTING_BUY_COVER:
+        #     return Side.BuyToClose
+        # else:
+        #     raise Exception("Invalid Potential Position Side {}".format(self.Side))
+
+    def GetOrdType(self):
+
+        if self.OrdType==_ORD_TYPE_MKT:
+            return OrdType.Market
+        elif self.OrdType==_ORD_TYPE_LMT:
+            return OrdType.Limit
+        elif self.OrdType==_ORD_TYPE_ALERT:
+            return OrdType.Limit
+        else:
+            raise Exception("Invalid Order Type for Potential Position: {}".format(self.OrdType))
+
+    def GetPrice(self,tradingSignalPrice):
+        if self.OrdType==_ORD_TYPE_MKT:
+            return None
+        elif self.OrdType==_ORD_TYPE_LMT:
+            return self.Price
+        elif self.OrdType==_ORD_TYPE_ALERT:
+            return tradingSignalPrice
+        else:
+            raise Exception("Invalid Order Type for Potential Position: {}".format(self.OrdType))
+
 
     #endregion
 

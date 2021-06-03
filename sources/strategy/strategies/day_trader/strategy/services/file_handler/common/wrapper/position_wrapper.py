@@ -6,6 +6,11 @@ from sources.framework.common.enums.PriceType import *
 from sources.framework.common.enums.Side import *
 from sources.framework.common.enums.PositionsStatus import *
 
+_ROUTING_BUY="B"
+_ROUTING_SELL="S"
+_ROUTING_BUY_COVER="BC"
+_ROUTING_SELL_SHORT="SS"
+
 class PositionWrapper(Wrapper):
     def __init__(self, pPosition):
         self.Position = pPosition
@@ -14,13 +19,13 @@ class PositionWrapper(Wrapper):
 
     def GetSide(self):
 
-        if(self.Position.Side=="B"):
+        if(self.Position.Side==_ROUTING_BUY):
             return Side.Buy
-        elif (self.Position.Side == "S"):
+        elif (self.Position.Side ==_ROUTING_SELL):
             return Side.Sell
-        elif (self.Position.Side == "BS"):
+        elif (self.Position.Side == _ROUTING_BUY_COVER):
             return Side.BuyToClose
-        elif (self.Position.Side == "SS"):
+        elif (self.Position.Side == _ROUTING_SELL_SHORT):
             return Side.SellShort
         else:
             raise Exception("Unknown side in input file {}".format(self.Position.Side))

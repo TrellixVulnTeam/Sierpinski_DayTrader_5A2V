@@ -535,12 +535,12 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
                 routePos = Position(PosId=self.NextPostId,
                                   Security=Security(Symbol=symbol, Exchange=self.Configuration.DefaultExchange,
                                                     SecType=potPos.Security.SecurityType),
-                                  Side=side, PriceType=PriceType.FixedAmount, Qty=potPos.Size,
+                                  Side=potPos.GetRoutingSide(), PriceType=PriceType.FixedAmount, Qty=potPos.Size,
                                   QuantityType=QuantityType.SHARES,
                                   Account=self.Configuration.DefaultAccount,
                                   Broker=potPos.Broker, Strategy=potPos.Strategy,
-                                  OrderType=OrdType.Market if price is None else OrdType.Limit,
-                                  OrderPrice=price)
+                                  OrderType=potPos.GetOrdType(),
+                                  OrderPrice=potPos.GetPrice(price))
 
                 routePos.ValidateNewPosition()
                 potPos.ExecutionSummaries[routePos.PosId]=ExecutionSummary(datetime.datetime.now(), routePos)
@@ -640,6 +640,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             secType = wrapper.GetField(PositionField.SecurityType)
             side = wrapper.GetField(PositionField.Side)
             qty = int( wrapper.GetField(PositionField.Qty))
+            ordType = wrapper.GetField(PositionField.OrderType)
             price = wrapper.GetField(PositionField.OrderPrice)
             broker = wrapper.GetField(PositionField.Broker)
             strategy = wrapper.GetField(PositionField.Strategy)
@@ -649,7 +650,8 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
             pot_pos_id=PotentialPosition.GetPosId(symbol,side,qty)
             potPos = PotentialPosition(pot_pos_id,
                                        security=Security(Symbol=symbol,SecType=secType),
-                                       size=qty,side=side,broker=broker,strategy=strategy)
+                                       size=qty,side=side,broker=broker,strategy=strategy,
+                                       ordType=ordType, price=price)
 
             self.PotentialPositions[pot_pos_id]=potPos
 
@@ -659,6 +661,7 @@ class DayTrader(BaseCommunicationModule, ICommunicationModule):
                        .format(symbol,side,qty),MessageType.INFO)
 
         except Exception as e:
+            traceback.print_exc()
             msg = "Exception @DayTrader.ProcessNewPositionReqSinglePos: {}!".format(str(e))
             self.ProcessCriticalError(e, msg)
             self.ProcessError(ErrorWrapper(Exception(msg)))
