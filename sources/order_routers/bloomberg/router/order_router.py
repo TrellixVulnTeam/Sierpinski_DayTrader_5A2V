@@ -642,10 +642,10 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
         # a field that carries a value, and 1 where the field should be ignored
 
         
-        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Display Quantity:
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Discretion
         indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
 
-        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Aggressiveness
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # MaxFloor
         indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
 
       
@@ -716,7 +716,7 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
         if(newOrder.Account is not None):
             request.set("EMSX_ACCOUNT", newOrder.Account)
 
-        if(self.Configuration.ImplementStrategy is not None and self.Configuration.ImplementStrategy =="OMEGA2") :
+        if(self.Configuration.ImplementStrategy is not None and self.Configuration.ImplementStrategy =="SOR") :
             self.LoadStrategy(request,self.Configuration.ImplementStrategy)
         elif (self.Configuration.ImplementStrategy is not None and self.Configuration.ImplementStrategy == "NONE"):
             self.LoadNoneStrategy(request)

@@ -24,5 +24,8 @@ class Configuration:
 
         self.DBConnectionString = config['DB']['CONNECTION_STRING']
 
+        self.ImplementProxy = config['DB']['IMPLEMENT_PROXY']=="True"
+        self.ProxyURL = config['DB']['PROXY_URL']
+
 
 

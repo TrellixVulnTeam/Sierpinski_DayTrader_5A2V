@@ -46,6 +46,18 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
 
     #region Private Methods
 
+    def GetDriver(self):
+
+        if self.Configuration.ImplementProxy:
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument("--proxy-server={}".format(self.Configuration.ProxyURL))
+            driver = webdriver.Chrome(executable_path=self.Configuration.ChromeDriverPath,options=chrome_options)
+            return driver
+        else:
+            driver = webdriver.Chrome(executable_path=self.Configuration.ChromeDriverPath)
+            return driver
+
+
     def ReTransissionSignalThread(self):
 
         while True:
@@ -71,7 +83,6 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                 if self.PublishLock.locked():
                     self.PublishLock.release()
                 time.sleep(self.Configuration.SignalRetransmissionFreq)
-
 
     def CreateTradingSignal(self,date,side,signal):
         try:
@@ -141,6 +152,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
                 time.sleep(1)
                 try:
                     token=self.TwoCaptchaManager.GetHCaptchaToken(requestId)
+                    self.DoLog("Token Found: {}. Connecting to Site".format(token),MessageType.INFO)
                     found=True
                     return token
                 except Exception as e:
@@ -270,7 +282,7 @@ class SignalTracker( BaseCommunicationModule, ICommunicationModule):
         articles=[]
         self.DoLog("Starting Trading Signal Scrapping".format(datetime.datetime.now()), MessageType.INFO)
         self.DoLog("Opening Chrome window".format(datetime.datetime.now()), MessageType.INFO)
-        driver = webdriver.Chrome(executable_path=self.Configuration.ChromeDriverPath)
+        driver = self.GetDriver()
         signalsURL = self.Configuration.HedgeEyeURL
 
         self.DoLogin(driver)
