@@ -630,7 +630,7 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
         data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Discretion
         indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
 
-    def LoadStrategy(self, request, strategy_name):
+    def LoadSORStrategy(self, request, strategy_name):
         strategy = request.getElement("EMSX_STRATEGY_PARAMS")
         strategy.setElement("EMSX_STRATEGY_NAME", strategy_name)
 
@@ -648,6 +648,40 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
         data.appendElement().setElement("EMSX_FIELD_DATA", "")  # MaxFloor
         indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
 
+    def LoadJETSORStrategy(self, request, strategy_name):
+        strategy = request.getElement("EMSX_STRATEGY_PARAMS")
+        strategy.setElement("EMSX_STRATEGY_NAME", strategy_name)
+
+        indicator = strategy.getElement("EMSX_STRATEGY_FIELD_INDICATORS")
+        data = strategy.getElement("EMSX_STRATEGY_FIELDS")
+
+        # Strategy parameters must be appended in the correct order. See the output
+        # of GetBrokerStrategyInfo request for the order. The indicator value is 0 for
+        # a field that carries a value, and 1 where the field should be ignored
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  #Start Time
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # End Time
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Display Size
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Pre-Open
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Open Part
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Post-Close
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # 10b-18
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
+
+        data.appendElement().setElement("EMSX_FIELD_DATA", "")  # Custom
+        indicator.appendElement().setElement("EMSX_FIELD_INDICATOR", 1)
       
 
     def LoadSession(self):
@@ -717,7 +751,9 @@ class OrderRouter( BaseCommunicationModule, ICommunicationModule):
             request.set("EMSX_ACCOUNT", newOrder.Account)
 
         if(self.Configuration.ImplementStrategy is not None and self.Configuration.ImplementStrategy =="SOR") :
-            self.LoadStrategy(request,self.Configuration.ImplementStrategy)
+            self.LoadSORStrategy(request, self.Configuration.ImplementStrategy)
+        if (self.Configuration.ImplementStrategy is not None and self.Configuration.ImplementStrategy == "JETSOR"):
+            self.LoadJETSORStrategy(request, self.Configuration.ImplementStrategy)
         elif (self.Configuration.ImplementStrategy is not None and self.Configuration.ImplementStrategy == "NONE"):
             self.LoadNoneStrategy(request)
 
